@@ -69,6 +69,7 @@
 
     --primary: light-dark(#15274c, white);
     --secondary: light-dark(#1da0ba, white);
+    --main-background: light-dark(#ffffff, #1a1a1a);
   }
 
   :global body {
@@ -77,7 +78,7 @@
 
   header {
     height: 60px;
-    background-color: light-dark(#ffffff, #1a1a1a);
+    background-color: var(--main-background);
     border-bottom: 1px solid gray;
     display: flex;
     position: sticky;
@@ -91,8 +92,7 @@
       margin-left: -8px;
     }
     & > nav {
-      font-family: sans-serif;
-      font-weight: bold;
+      font-family: Nevis;
       text-transform: uppercase;
     }
   }
