@@ -53,6 +53,7 @@
   @font-face {
     font-family: "Nevis";
     src: url("/fonts/Nevis.woff2") format("woff2");
+    font-display: swap;
   }
 
   /*
@@ -70,6 +71,10 @@
     --primary: light-dark(#15274c, white);
     --secondary: light-dark(#1da0ba, white);
     --main-background: light-dark(#ffffff, #1a1a1a);
+    --secondary-background: light-dark(#f0f0f0, #222222);
+
+    font-family: sans-serif;
+    background-color: var(--secondary-background);
   }
 
   :global body {
@@ -86,13 +91,14 @@
     padding: 0 16px;
     align-items: center;
     justify-content: space-between;
+    z-index: 1;
     gap: 4px;
     & > a {
       padding: 8px;
       margin-left: -8px;
     }
     & > nav {
-      font-family: Nevis;
+      font-family: Nevis, sans-serif;
       text-transform: uppercase;
     }
   }
