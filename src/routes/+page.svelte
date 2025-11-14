@@ -1,5 +1,10 @@
 <script>
-  import IconMonochrome from "$lib/components/IconMonochrome.svelte";
+  import HackersWeekMonochrome from "$lib/components/icons/HackersWeekMonochrome.svelte";
+
+  import Aena from "$lib/components/icons/Aena.svelte";
+  import EMT from "$lib/components/icons/EMT.svelte";
+  import MetroMalaga from "$lib/components/icons/MetroMalaga.svelte";
+  import Renfe from "$lib/components/icons/Renfe.svelte";
 </script>
 
 <svelte:head>
@@ -21,7 +26,7 @@
         <time datetime="2026-03-13">13 de Marzo 2026</time>
       </h2>
     </main-text>
-    <IconMonochrome height="400" />
+    <HackersWeekMonochrome height="400" />
   </section>
   <section id="timetable">
     <h2>Horario</h2>
@@ -78,17 +83,51 @@
       </tbody>
     </table>
   </section>
+  <section id="location">
+    <h2>Zona</h2>
+    <enhanced:img
+      src="$lib/assets/map.webp"
+      alt="Mapa desde arriba de la Escuela Técnica Superior de Ingeniería Informática"
+    />
+    <div>
+      <div>
+        <EMT width="50" />
+        <h3>Bus</h3>
+        <p>Líneas 11, 18, 22</p>
+        <p>Parada: Louis Pasteur</p>
+      </div>
+      <div>
+        <MetroMalaga width="50" />
+        <h3>Metro</h3>
+        <p>Línea 1</p>
+        <p>Parada: Clínico</p>
+      </div>
+      <div>
+        <Renfe width="50" />
+        <h3>Tren</h3>
+        <p>Estación de Málaga-María Zambrano</p>
+      </div>
+      <div>
+        <!-- less width so that it looks more consistent visually -->
+        <Aena width="40" />
+        <h3>Aeropuerto</h3>
+        <p>Línea Aeropuerto a centro de la ciudad / metro</p>
+      </div>
+    </div>
+  </section>
 </main>
 
 <style>
-  main > * {
+  main > section {
     border-bottom: 1px solid gray;
+    &:nth-child(odd) {
+      background-color: var(--main-background);
+    }
   }
 
   #banner {
     display: flex;
     height: 500px;
-    background-color: var(--main-background);
     align-items: center;
     justify-content: center;
     & > main-text {
@@ -149,6 +188,51 @@
         text-align: center;
         text-wrap: balance;
         border: 1px solid gray;
+      }
+    }
+  }
+
+  #location {
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    align-items: center;
+    justify-content: center;
+    & > h2 {
+      color: var(--primary);
+      font-family: Nevis, sans-serif;
+      text-transform: uppercase;
+      font-size: 4em;
+      margin: 0 0 0.5em 0;
+    }
+    /* cannot use & > here because its technically inside a <picture> element */
+    picture {
+      max-width: 75%;
+      margin-bottom: 50px;
+    }
+    enhanced\:img {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+    & > div {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      row-gap: 20px;
+      background-color: light-dark(#eeeeee, #333333);
+      padding: 20px;
+      border: 1px solid gray;
+      & > div {
+        align-self: center;
+        display: block;
+        & > h3 {
+          display: inline;
+          color: var(--primary);
+          font-family: Nevis, sans-serif;
+          text-transform: uppercase;
+          font-size: 2.5em;
+        }
       }
     }
   }
