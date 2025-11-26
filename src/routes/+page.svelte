@@ -25,6 +25,15 @@
         <time datetime="2026-03-09">09</time> -
         <time datetime="2026-03-13">13 de Marzo 2026</time>
       </h2>
+      <a href="#timetable">
+        <button>Horario</button>
+      </a>
+      <a href="#location">
+        <button>Ubicación</button>
+      </a>
+      <a href="/ponentes">
+        <button>Call For Papers</button>
+      </a>
     </main-text>
     <HackersWeekMonochrome height="400" />
   </section>
@@ -119,7 +128,7 @@
 
 <style>
   main > section {
-    border-bottom: 1px solid gray;
+    border-bottom: var(--border);
     &:nth-child(odd) {
       background-color: var(--main-background);
     }
@@ -139,6 +148,10 @@
       }
       & > h1 {
         font-size: 5em;
+        padding-top: 30px;
+      }
+      & > h2 {
+        padding-bottom: 20px;
       }
       .primary {
         color: var(--primary);
@@ -187,7 +200,7 @@
         padding: 0.6em;
         text-align: center;
         text-wrap: balance;
-        border: 1px solid gray;
+        border: var(--border);
       }
     }
   }
@@ -222,7 +235,7 @@
       row-gap: 20px;
       background-color: light-dark(#eeeeee, #333333);
       padding: 20px;
-      border: 1px solid gray;
+      border: var(--border);
       & > div {
         align-self: center;
         display: block;

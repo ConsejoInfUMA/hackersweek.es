@@ -73,6 +73,8 @@
     --main-background: light-dark(#ffffff, #1a1a1a);
     --secondary-background: light-dark(#f0f0f0, #222222);
 
+    --border: 1px solid gray;
+
     font-family: sans-serif;
     background-color: var(--secondary-background);
   }
@@ -81,10 +83,33 @@
     margin: 0;
   }
 
+  :global button {
+    border-radius: 0;
+    border: var(--border);
+    background-color: var(--secondary-background);
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 10px 20px;
+    &:hover {
+      background-color: color-mix(
+        in oklab,
+        var(--secondary-background),
+        currentColor 15%
+      );
+    }
+    &:active {
+      background-color: color-mix(
+        in oklab,
+        var(--secondary-background),
+        currentColor 20%
+      );
+    }
+  }
+
   header {
     height: 60px;
     background-color: var(--main-background);
-    border-bottom: 1px solid gray;
+    border-bottom: var(--border);
     display: flex;
     position: sticky;
     top: 0;
