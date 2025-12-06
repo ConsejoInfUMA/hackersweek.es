@@ -285,20 +285,15 @@
   #location {
     display: flex;
     flex-direction: column;
-    padding-top: 50px;
-    padding-bottom: 75px;
+    padding: 50px 12.5% 75px;
     align-items: center;
     justify-content: center;
-    /* cannot use & > here because its technically inside a <picture> element */
-    picture {
-      max-width: 75%;
-      margin-bottom: 50px;
-    }
     enhanced\:img {
       display: block;
       max-width: 100%;
       height: auto;
       border: var(--border);
+      margin-bottom: 50px;
     }
     & > div {
       display: grid;
