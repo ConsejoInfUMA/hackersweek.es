@@ -228,15 +228,18 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    gap: 16px;
+    gap: 32px;
     align-content: flex-start;
-    padding: 0 20px;
+    padding: 32px 80px;
+    @media (width < 768px) {
+      padding: 16px;
+    }
     div {
       flex: 1 1 400px;
     }
     figure {
       flex: 0 0 auto;
-      margin: 16px 0;
+      margin: 0;
       display: inline-block;
       max-width: 100%;
     }
