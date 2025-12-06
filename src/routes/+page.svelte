@@ -153,6 +153,9 @@
       & > h2 {
         padding-bottom: 20px;
       }
+      & > a {
+        display: inline-block;
+      }
       .primary {
         color: var(--primary);
       }

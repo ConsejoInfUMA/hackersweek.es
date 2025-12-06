@@ -110,26 +110,34 @@
     height: 60px;
     background-color: var(--main-background);
     border-bottom: var(--border);
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
     position: sticky;
     top: 0;
     padding: 0 16px;
     align-items: center;
-    justify-content: space-between;
     z-index: 1;
-    gap: 4px;
     & > a {
+      justify-self: flex-start;
       padding: 8px;
       margin-left: -8px;
     }
     & > nav {
-      font-family: Nevis, sans-serif;
+      justify-self: center;
+      display: flex;
+      gap: 50px;
+      font-size: larger;
       text-transform: uppercase;
+      font-weight: bold;
+      & > a {
+        color: CanvasText;
+      }
     }
   }
 
   theme-picker {
     display: flex;
+    justify-self: flex-end;
     & > label {
       padding: 10px;
       background-color: #00000022;
