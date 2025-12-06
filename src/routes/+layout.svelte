@@ -21,8 +21,8 @@
   <a href="/"><Logo height="34" /></a>
   <nav>
     <a href="/">Noticias</a>
+    <a href="/">Eventos</a>
     <a href="/">Prensa</a>
-    <a href="/">Noticias 2</a>
     <a href="/">Archivos</a>
   </nav>
   <theme-picker aria-label="Selector de temas" role="radiogroup">
@@ -75,6 +75,7 @@
 
     --border: 1px solid gray;
 
+    scroll-behavior: smooth;
     font-family: sans-serif;
     background-color: var(--secondary-background);
   }

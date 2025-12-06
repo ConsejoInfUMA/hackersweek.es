@@ -25,7 +25,7 @@
         <time datetime="2026-03-09">09</time> -
         <time datetime="2026-03-13">13 de Marzo 2026</time>
       </h2>
-      <a href="#timetable">
+      <a href="#schedule">
         <button>Horario</button>
       </a>
       <a href="#location">
@@ -37,7 +37,51 @@
     </main-text>
     <HackersWeekMonochrome height="400" />
   </section>
-  <section id="timetable">
+  <section id="info">
+    <div>
+      <p>
+        La <strong>Hackers Week</strong> es la semana cultural de la
+        <a href="https://www.uma.es/etsi-informatica/" target="_blank">
+          E.T.S. de Ingeniería Informática
+        </a>
+        de la Universidad de Málaga, organizado por CEETSII, su consejo de estudiantes.
+        Cuenta con un amplio horario lleno de actividades, conferencias y talleres,
+        sobre temas como la seguridad informática, programación, investigación, videojuegos
+        e inteligencia artificial.
+      </p>
+      <p>
+        Además de las actividades anteriormente mencionadas, se ponen a
+        disposición espacios habilitados con videojuegos, juegos de mesa o
+        juegos de rol y también se realizan torneos y competiciones.
+      </p>
+    </div>
+    <figure>
+      <enhanced:img
+        height="300"
+        src="$lib/assets/etsii.jpg"
+        alt="Edificio de la ETSII"
+      />
+      <figcaption>
+        <small>
+          Imagen:
+          <a
+            href="https://commons.wikimedia.org/wiki/User:Gvillalobos"
+            target="_blank"
+          >
+            User:Gvillalobos
+          </a>
+          con licencia
+          <a
+            href="https://creativecommons.org/licenses/by-sa/4.0/deed.es"
+            target="_blank"
+          >
+            CC BY-SA 4.0
+          </a>
+        </small>
+      </figcaption>
+    </figure>
+  </section>
+  <section id="schedule">
     <h2>Horario</h2>
     <table>
       <thead>
@@ -129,6 +173,13 @@
 <style>
   main > section {
     border-bottom: var(--border);
+    & > h2 {
+      color: var(--primary);
+      font-family: Nevis, sans-serif;
+      text-transform: uppercase;
+      font-size: 4em;
+      margin: 0 0 0.5em 0;
+    }
     &:nth-child(odd) {
       background-color: var(--main-background);
     }
@@ -169,20 +220,40 @@
     }
   }
 
-  #timetable {
+  #info {
+    display: flex;
+    text-align: justify;
+    font-size: larger;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    align-content: flex-start;
+    padding: 0 20px;
+    div {
+      flex: 1 1 400px;
+    }
+    figure {
+      flex: 0 0 auto;
+      margin: 16px 0;
+      display: inline-block;
+      max-width: 100%;
+    }
+    enhanced\:img {
+      max-width: 100%;
+      display: block;
+      border: var(--border);
+    }
+  }
+
+  #schedule {
     display: flex;
     flex-direction: column;
     padding-top: 50px;
     padding-bottom: 75px;
     align-items: center;
     justify-content: center;
-    & > h2 {
-      color: var(--primary);
-      font-family: Nevis, sans-serif;
-      text-transform: uppercase;
-      font-size: 4em;
-      margin: 0 0 0.5em 0;
-    }
     & > table {
       table-layout: fixed;
       width: 75%;
@@ -215,13 +286,6 @@
     padding-bottom: 75px;
     align-items: center;
     justify-content: center;
-    & > h2 {
-      color: var(--primary);
-      font-family: Nevis, sans-serif;
-      text-transform: uppercase;
-      font-size: 4em;
-      margin: 0 0 0.5em 0;
-    }
     /* cannot use & > here because its technically inside a <picture> element */
     picture {
       max-width: 75%;
@@ -231,6 +295,7 @@
       display: block;
       max-width: 100%;
       height: auto;
+      border: var(--border);
     }
     & > div {
       display: grid;
