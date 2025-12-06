@@ -53,6 +53,7 @@
   @font-face {
     font-family: "Nevis";
     src: url("/fonts/Nevis.woff2") format("woff2");
+    font-weight: bold;
     font-display: swap;
   }
 
