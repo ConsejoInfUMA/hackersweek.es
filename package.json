@@ -11,18 +11,18 @@
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
 	"dependencies": {
-		"@lucide/svelte": "^0.544.0"
+		"@lucide/svelte": "^0.556.0"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^3.0.9",
-		"@sveltejs/enhanced-img": "^0.8.4",
-		"@sveltejs/kit": "^2.43.5",
+		"@sveltejs/adapter-static": "^3.0.10",
+		"@sveltejs/enhanced-img": "^0.9.2",
+		"@sveltejs/kit": "^2.49.1",
 		"@sveltejs/vite-plugin-svelte": "^6.2.1",
 		"mdsvex": "^0.12.6",
-		"svelte": "^5.39.6",
-		"svelte-check": "^4.3.2",
-		"typescript": "^5.9.2",
-		"vite": "^7.1.7"
+		"svelte": "^5.45.6",
+		"svelte-check": "^4.3.4",
+		"typescript": "^5.9.3",
+		"vite": "^7.2.6"
 	},
-	"packageManager": "pnpm@10.17.1"
+	"packageManager": "pnpm@10.24.0"
 }
