@@ -233,6 +233,7 @@
     padding: 32px 80px;
     @media (width < 768px) {
       padding: 16px;
+      gap: 16px;
     }
     div {
       flex: 1 1 400px;
@@ -244,6 +245,7 @@
       max-width: 100%;
     }
     enhanced\:img {
+      height: auto;
       max-width: 100%;
       display: block;
       border: var(--border);
