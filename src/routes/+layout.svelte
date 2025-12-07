@@ -22,7 +22,7 @@
   <nav>
     <a href="/">Noticias</a>
     <a href="/">Eventos</a>
-    <a href="/">Prensa</a>
+    <a href="/press-kit">Prensa</a>
     <a href="/">Archivos</a>
   </nav>
   <theme-picker aria-label="Selector de temas" role="radiogroup">
@@ -92,6 +92,7 @@
     font-size: 1.5em;
     font-weight: bold;
     padding: 10px 20px;
+    cursor: pointer;
     &:hover {
       background-color: color-mix(
         in oklab,

@@ -1,0 +1,12 @@
+---
+title: Prensa | Hackers Week
+---
+
+# Kit de Prensa
+
+Si tienes interés en escribir sobre la Hackers Week,
+puede interesarte el kit de prensa con recursos e información.
+
+<a href="https://ceetsii.uma.es/nextcloud/s/8dF8oSMC8Ki39jr" target="_blank">
+  <button>Obtener Kit de Prensa</button>
+</a>
