@@ -57,8 +57,9 @@
     </div>
     <figure>
       <enhanced:img
-        height="300"
-        src="$lib/assets/etsii.jpg"
+        src="$lib/assets/etsii.jpg?w=800;400"
+        width="400"
+        sizes="400px"
         alt="Edificio de la ETSII"
       />
       <figcaption>
@@ -139,7 +140,9 @@
   <section id="location">
     <h2>Zona</h2>
     <enhanced:img
-      src="$lib/assets/map.webp"
+      src="$lib/assets/map.webp?w=1642;821"
+      width="821"
+      sizes="821px"
       alt="Mapa desde arriba de la Escuela Técnica Superior de Ingeniería Informática"
     />
     <div>
@@ -287,7 +290,7 @@
   #location {
     display: flex;
     flex-direction: column;
-    padding: 50px 12.5% 75px;
+    padding: 50px 16px 75px;
     align-items: center;
     justify-content: center;
     enhanced\:img {
