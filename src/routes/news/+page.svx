@@ -4,4 +4,4 @@ description: Anuncios recientes de la Hackers Week
 layout: info
 ---
 
-NOTICIA: vamos tarde con la hackers
+**NOTICIA**: vamos tarde con *la hackers*
