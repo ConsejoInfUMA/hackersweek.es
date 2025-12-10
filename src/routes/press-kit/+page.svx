@@ -1,8 +1,8 @@
 ---
-title: Prensa | Hackers Week
+title: Kit de Prensa
+description: Información para la prensa sobre imágenes y logotipos
+layout: info
 ---
-
-# Kit de Prensa
 
 Si tienes interés en escribir sobre la Hackers Week,
 puede interesarte el kit de prensa con recursos e información.

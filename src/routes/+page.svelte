@@ -11,7 +11,7 @@
   <title>Hackers Week</title>
   <meta
     name="description"
-    content="Semana cultural de la ETSII sobre informática y nuevas tecnologías."
+    content="Semana cultural de la ETSII sobre informática y nuevas tecnologías"
   />
 </svelte:head>
 
@@ -84,58 +84,60 @@
   </section>
   <section id="schedule">
     <h2>Horario</h2>
-    <table>
-      <thead>
-        <tr>
-          <th scope="col"></th>
-          <th scope="col">Lunes</th>
-          <th scope="col">Martes</th>
-          <th scope="col">Miércoles</th>
-          <th scope="col">Jueves</th>
-          <th scope="col">Viernes</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">10:45 - 11:30</th>
-          <td rowspan="2">
-            Quijotes contra Gigantes: los nuevos retos de la Ciberseguridad
-          </td>
-          <td rowspan="2">
-            Hackers en Wall Street: Tecnología de Trading y Ciberseguridad en
-            Cripto y Mercados Financieros
-          </td>
-          <td>Bits y bases: de la secuencia genética al dato</td>
-          <td>Informática forense aplicada a imágenes</td>
-          <td rowspan="2">Podcasteando con Amigos</td>
-        </tr>
-        <tr>
-          <th scope="row">11:45 - 12:30</th>
-          <td>
-            IA y LLMs: Un Atajo Eficiente entre los Datos y las Decisiones
-          </td>
-          <td>
-            Robótica Móvil y Percepción Artificial en el Ámbito de la Salud
-          </td>
-        </tr>
-        <tr>
-          <th scope="row">17:30 - 18:15</th>
-          <td rowspan="2">
-            Ciberinteligencia 101; de tener un VPS a detectar una ciberoperación
-            rusa
-          </td>
-          <td rowspan="2">Trading Cripto: Desde las APIs hasta el Código</td>
-          <td>Descubre el Poder de la IA Generativa con Microsoft Azure</td>
-          <td>Computación Cuántica: un nuevo reto en Ciberseguridad</td>
-          <td rowspan="2">-</td>
-        </tr>
-        <tr>
-          <th scope="row">18:30 - 19:15</th>
-          <td>Privacidad y Anonimato para Dummies</td>
-          <td>Ingeniería de la Salud: Del aula a la industria</td>
-        </tr>
-      </tbody>
-    </table>
+    <table-container>
+      <table>
+        <thead>
+          <tr>
+            <th scope="col"></th>
+            <th scope="col">Lunes</th>
+            <th scope="col">Martes</th>
+            <th scope="col">Miércoles</th>
+            <th scope="col">Jueves</th>
+            <th scope="col">Viernes</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">10:45 - 11:30</th>
+            <td rowspan="2">
+              Quijotes contra Gigantes: los nuevos retos de la Ciberseguridad
+            </td>
+            <td rowspan="2">
+              Hackers en Wall Street: Tecnología de Trading y Ciberseguridad en
+              Cripto y Mercados Financieros
+            </td>
+            <td>Bits y bases: de la secuencia genética al dato</td>
+            <td>Informática forense aplicada a imágenes</td>
+            <td rowspan="2">Podcasteando con Amigos</td>
+          </tr>
+          <tr>
+            <th scope="row">11:45 - 12:30</th>
+            <td>
+              IA y LLMs: Un Atajo Eficiente entre los Datos y las Decisiones
+            </td>
+            <td>
+              Robótica Móvil y Percepción Artificial en el Ámbito de la Salud
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">17:30 - 18:15</th>
+            <td rowspan="2">
+              Ciberinteligencia 101; de tener un VPS a detectar una
+              ciberoperación rusa
+            </td>
+            <td rowspan="2">Trading Cripto: Desde las APIs hasta el Código</td>
+            <td>Descubre el Poder de la IA Generativa con Microsoft Azure</td>
+            <td>Computación Cuántica: un nuevo reto en Ciberseguridad</td>
+            <td rowspan="2">-</td>
+          </tr>
+          <tr>
+            <th scope="row">18:30 - 19:15</th>
+            <td>Privacidad y Anonimato para Dummies</td>
+            <td>Ingeniería de la Salud: Del aula a la industria</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-container>
   </section>
   <section id="location">
     <h2>Zona</h2>
@@ -186,6 +188,12 @@
     &:nth-child(odd) {
       background-color: var(--main-background);
     }
+    &:nth-child(even) {
+      background-color: var(--secondary-background);
+    }
+    &:last-of-type {
+      border-bottom: none;
+    }
   }
 
   #banner {
@@ -197,18 +205,18 @@
       margin: 0 0 0 100px;
       font-family: Nevis, sans-serif;
       text-transform: uppercase;
+      z-index: 1;
+      flex: 0 1 auto;
       & > :is(h1, h2) {
         margin: 0;
       }
       & > h1 {
+        display: inline-block;
         font-size: 5em;
         padding-top: 30px;
       }
       & > h2 {
         padding-bottom: 20px;
-      }
-      & > a {
-        display: inline-block;
       }
       .primary {
         color: var(--primary);
@@ -220,6 +228,10 @@
     & > :global(svg) {
       color: light-dark(#e6e6e6, #333333);
       transform: rotate(10deg);
+      flex-shrink: 0;
+      @media (width < 768px) {
+        position: absolute;
+      }
     }
   }
 
@@ -262,13 +274,21 @@
     padding-bottom: 75px;
     align-items: center;
     justify-content: center;
-    & > table {
+    table-container {
+      display: block;
+      height: auto;
+      max-width: 75%;
+      overflow-x: auto;
+    }
+    table {
       table-layout: fixed;
-      width: 75%;
+      min-width: 1000px;
+      width: 100%;
       border-collapse: collapse;
       & > tbody > tr {
         & > th {
           font-size: 1.25em;
+          text-wrap: nowrap;
         }
         &:nth-child(odd) {
           background-color: light-dark(#eeeeee, #333333);

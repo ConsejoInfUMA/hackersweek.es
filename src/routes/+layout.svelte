@@ -48,6 +48,15 @@
   </script>
 </header>
 {@render children()}
+<footer>
+  <p>
+    Desarrollada en <a href="https://svelte.dev/" target="_blank">SvelteKit</a> por
+    el Consejo de Estudiantes de la ETSII
+  </p>
+  <a href="https://github.com/ConsejoInfUMA/hackersweek.es/" target="_blank">
+    Ver página en GitHub
+  </a>
+</footer>
 
 <style>
   @font-face {
@@ -78,7 +87,7 @@
 
     scroll-behavior: smooth;
     font-family: sans-serif;
-    background-color: var(--secondary-background);
+    background-color: var(--main-background);
   }
 
   :global body {
@@ -107,10 +116,13 @@
         currentColor 20%
       );
     }
+    a:has(&) {
+      display: inline-block;
+    }
   }
 
   header {
-    height: 60px;
+    min-height: 60px;
     background-color: var(--main-background);
     border-bottom: var(--border);
     display: grid;
@@ -119,7 +131,7 @@
     top: 0;
     padding: 0 16px;
     align-items: center;
-    z-index: 1;
+    z-index: 2;
     & > a {
       justify-self: flex-start;
       padding: 8px;
@@ -171,5 +183,16 @@
         display: block;
       }
     }
+  }
+
+  footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    border-top: var(--border);
+    padding: 30px;
   }
 </style>

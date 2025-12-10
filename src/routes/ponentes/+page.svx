@@ -1,4 +1,8 @@
-# Participar como ponente
+---
+title: Ponentes
+description: Información para ponentes y conductores de talleres para los eventos de la Hackers Week
+layout: info
+---
 
 Esta es la parte donde eres ponente, o más bien lo quieres ser.
 Queriendo ser ponente rellenas el [siguiente formulario](https://ceetsii.uma.es/limesurvey/index.php?r=survey/index&sid=721516&lang=es).
