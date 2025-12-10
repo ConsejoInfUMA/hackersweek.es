@@ -199,10 +199,18 @@
   #banner {
     display: flex;
     height: 500px;
+    max-width: 100%;
     align-items: center;
     justify-content: center;
+    @media (width < 768px) {
+      overflow: hidden;
+    }
     & > main-text {
       margin: 0 0 0 100px;
+      @media (width < 768px) {
+        margin: 0;
+        text-align: center;
+      }
       font-family: Nevis, sans-serif;
       text-transform: uppercase;
       z-index: 1;
@@ -214,6 +222,9 @@
         display: inline-block;
         font-size: 5em;
         padding-top: 30px;
+        @media (width < 768px) {
+          font-size: 4em;
+        }
       }
       & > h2 {
         padding-bottom: 20px;
@@ -225,11 +236,12 @@
         color: var(--secondary);
       }
     }
-    & > :global(svg) {
+    :global(svg) {
       color: light-dark(#e6e6e6, #333333);
       transform: rotate(10deg);
       flex-shrink: 0;
       @media (width < 768px) {
+        max-width: calc(100% - 72px);
         position: absolute;
       }
     }
@@ -322,6 +334,14 @@
     }
     & > div {
       display: grid;
+      max-width: calc(100% - 32px);
+      @media (width < 768px) {
+        display: flex;
+        flex-direction: column;
+        & > div {
+          width: 100%;
+        }
+      }
       grid-template-columns: 1fr 1fr;
       row-gap: 20px;
       background-color: light-dark(#eeeeee, #333333);

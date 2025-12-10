@@ -123,6 +123,7 @@
 
   header {
     min-height: 60px;
+    max-width: 100%;
     background-color: var(--main-background);
     border-bottom: var(--border);
     display: grid;
@@ -132,6 +133,15 @@
     padding: 0 16px;
     align-items: center;
     z-index: 2;
+    @media (width < 768px) {
+      display: flex;
+      position: relative;
+      flex-wrap: wrap;
+      align-items: flex-start;
+      justify-content: space-between;
+      padding: 16px;
+      row-gap: 20px;
+    }
     & > a {
       justify-self: flex-start;
       padding: 8px;
@@ -141,6 +151,12 @@
       justify-self: center;
       display: flex;
       gap: 50px;
+      @media (width < 768px) {
+        text-align: right;
+        flex-direction: column;
+        gap: 10px;
+      }
+
       font-size: larger;
       text-transform: uppercase;
       font-weight: bold;
