@@ -20,10 +20,10 @@
 <header>
   <a href="/"><Logo height="34" /></a>
   <nav>
-    <a href="/">Noticias</a>
-    <a href="/">Eventos</a>
+    <a href="/news">Noticias</a>
+    <a href="/events">Eventos</a>
     <a href="/press-kit">Prensa</a>
-    <a href="/">Archivos</a>
+    <a href="/archives">Archivos</a>
   </nav>
   <theme-picker aria-label="Selector de temas" role="radiogroup">
     <label aria-label="Predeterminado">

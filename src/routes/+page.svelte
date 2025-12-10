@@ -291,6 +291,9 @@
       height: auto;
       max-width: 75%;
       overflow-x: auto;
+      @media (width < 768px) {
+        max-width: calc(100% - 32px);
+      }
     }
     table {
       table-layout: fixed;

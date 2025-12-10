@@ -1,0 +1,7 @@
+---
+title: Eventos
+description: Información sobre actividades de la Hackers Week
+layout: info
+---
+
+placeholder placeholder
