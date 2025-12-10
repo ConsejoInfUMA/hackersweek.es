@@ -213,5 +213,8 @@
     align-items: center;
     border-top: var(--border);
     padding: 30px;
+    p {
+      text-wrap: balance;
+    }
   }
 </style>
