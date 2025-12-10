@@ -169,6 +169,9 @@
   theme-picker {
     display: flex;
     justify-self: flex-end;
+    @media (width < 768px) {
+      margin-left: auto;
+    }
     & > label {
       padding: 10px;
       background-color: #00000022;
