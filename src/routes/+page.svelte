@@ -27,15 +27,17 @@
         <time datetime="2026-03-09">09</time> -
         <time datetime="2026-03-13">13 de Marzo 2026</time>
       </h2>
-      <a href="#schedule">
-        <button>Horario</button>
-      </a>
-      <a href="#location">
-        <button>Ubicación</button>
-      </a>
-      <a href="/ponentes">
-        <button>Call For Papers</button>
-      </a>
+      <nav>
+        <a href="#schedule">
+          <button>Horario</button>
+        </a>
+        <a href="#location">
+          <button>Ubicación</button>
+        </a>
+        <a href="/ponentes">
+          <button>Call For Papers</button>
+        </a>
+      </nav>
     </main-text>
     <HackersWeekMonochrome height="400" />
   </section>
@@ -212,6 +214,9 @@
       @media (width < 768px) {
         margin: 0;
         text-align: center;
+        & > nav {
+          justify-content: center;
+        }
       }
       font-family: Nevis, sans-serif;
       text-transform: uppercase;
@@ -236,6 +241,12 @@
       }
       .secondary {
         color: var(--secondary);
+      }
+      & > nav {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 5px;
       }
     }
     & > :global(svg) {
