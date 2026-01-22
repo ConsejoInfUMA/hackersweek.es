@@ -1,5 +1,6 @@
 <script>
   import HackersWeekMonochrome from "$lib/components/icons/HackersWeekMonochrome.svelte";
+  import HackersWeekEdition from "$lib/components/icons/HackersWeekEdition.svelte";
 
   import Aena from "$lib/components/icons/Aena.svelte";
   import EMT from "$lib/components/icons/EMT.svelte";
@@ -20,6 +21,7 @@
     <main-text>
       <h1>
         <span class="primary">Hackers</span> <span class="secondary">Week</span>
+        <HackersWeekEdition height="1lh" />
       </h1>
       <h2>
         <time datetime="2026-03-09">09</time> -
@@ -236,7 +238,7 @@
         color: var(--secondary);
       }
     }
-    :global(svg) {
+    & > :global(svg) {
       color: light-dark(#e6e6e6, #333333);
       transform: rotate(10deg);
       flex-shrink: 0;
