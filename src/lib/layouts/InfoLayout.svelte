@@ -37,6 +37,10 @@
     max-width: calc(100% - 96px);
     text-align: justify;
     padding: 32px;
+    h1:first-of-type {
+      text-align: center;
+      font-size: 3em;
+    }
     @media (width < 768px) {
       padding: 16px;
       max-width: calc(100% - 64px);

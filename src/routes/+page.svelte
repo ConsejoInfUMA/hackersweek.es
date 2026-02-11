@@ -145,12 +145,17 @@
   </section>
   <section id="location">
     <h2>Zona</h2>
-    <enhanced:img
-      src="$lib/assets/map.webp?w=1642;821"
-      width="821"
-      sizes="821px"
-      alt="Mapa desde arriba de la Escuela Técnica Superior de Ingeniería Informática"
-    />
+    <figure>
+      <enhanced:img
+        src="$lib/assets/map.webp?w=1642;821"
+        width="821"
+        sizes="821px"
+      />
+      <figcaption>
+        <a href="https://youtu.be/UxNUhgNQrYQ" target="_blank">Mapa</a> desde arriba
+        de la ETSII
+      </figcaption>
+    </figure>
     <div>
       <div>
         <EMT width="50" />
@@ -341,12 +346,25 @@
     padding: 50px 16px 75px;
     align-items: center;
     justify-content: center;
-    enhanced\:img {
-      display: block;
-      max-width: 100%;
-      height: auto;
-      border: var(--border);
+    figure {
+      margin: 0;
       margin-bottom: 50px;
+      max-width: 100%;
+      padding: 5px;
+      border: var(--border);
+      enhanced\:img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+        border: var(--border);
+      }
+      figcaption {
+        text-align: center;
+        padding: 5px;
+        a {
+          color: CanvasText;
+        }
+      }
     }
     & > div {
       display: grid;
