@@ -21,7 +21,7 @@
     <main-text>
       <h1>
         <span class="primary">Hackers</span> <span class="secondary">Week</span>
-        <HackersWeekEdition height="1lh" />
+        <HackersWeekEdition height="1.13em" />
       </h1>
       <h2>
         <time datetime="2026-03-09">09</time> -
@@ -149,6 +149,7 @@
       <enhanced:img
         src="$lib/assets/map.webp?w=1642;821"
         width="821"
+        alt="Mapa desde arriba de la ETSII"
         sizes="821px"
       />
       <figcaption>
