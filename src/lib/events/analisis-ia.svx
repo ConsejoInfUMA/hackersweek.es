@@ -1,0 +1,10 @@
+---
+title: 'Análisis de datos con IA: menos código, más insights'
+description: fría eh no era una guerra como tal
+presenter: 'Ismael Pineda Palencia'
+organization: 'Fortris'
+date: '2026-03-10'
+start: '17:30'
+end: '19:15'
+layout: info
+---

@@ -1,0 +1,9 @@
+---
+title: Construye y Despliega tu API Ready-for-Production
+description: fría eh no era una guerra como tal
+presenter: 'Javier Torralbo Cortés, Alejandro Cerezo Contreras'
+date: '2026-03-11'
+start: '17:30'
+end: '19:15'
+layout: info
+---

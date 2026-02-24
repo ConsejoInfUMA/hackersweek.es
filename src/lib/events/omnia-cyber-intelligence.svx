@@ -1,0 +1,9 @@
+---
+title: "Omnia: Collective Cyber Intelligence. Powered by AI. United by Community."
+description: fría eh no era una guerra como tal
+presenter: 'Alejandro García Peláez'
+date: '2026-03-09'
+start: '10:45'
+end: '12:30'
+layout: info
+---

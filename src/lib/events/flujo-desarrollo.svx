@@ -1,0 +1,10 @@
+---
+title: 'De cero a producción: automatiza tu flujo de desarrollo'
+description: fría eh no era una guerra como tal
+presenter: "Amin Chaloukh"
+organization: "OpenBokeron"
+date: '2026-03-09'
+start: '17:30'
+end: '19:15'
+layout: info
+---

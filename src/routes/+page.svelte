@@ -2,6 +2,8 @@
   import HackersWeekMonochrome from "$lib/components/icons/HackersWeekMonochrome.svelte";
   import HackersWeekEdition from "$lib/components/icons/HackersWeekEdition.svelte";
 
+  import Schedule from "$lib/components/Schedule.svelte";
+
   import Aena from "$lib/components/icons/Aena.svelte";
   import EMT from "$lib/components/icons/EMT.svelte";
   import MetroMalaga from "$lib/components/icons/MetroMalaga.svelte";
@@ -89,58 +91,7 @@
   <section id="schedule">
     <h2>Horario</h2>
     <table-container>
-      <table>
-        <thead>
-          <tr>
-            <th scope="col"></th>
-            <th scope="col">Lunes</th>
-            <th scope="col">Martes</th>
-            <th scope="col">Miércoles</th>
-            <th scope="col">Jueves</th>
-            <th scope="col">Viernes</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">10:45 - 11:30</th>
-            <td rowspan="2">
-              Quijotes contra Gigantes: los nuevos retos de la Ciberseguridad
-            </td>
-            <td rowspan="2">
-              Hackers en Wall Street: Tecnología de Trading y Ciberseguridad en
-              Cripto y Mercados Financieros
-            </td>
-            <td>Bits y bases: de la secuencia genética al dato</td>
-            <td>Informática forense aplicada a imágenes</td>
-            <td rowspan="2">Podcasteando con Amigos</td>
-          </tr>
-          <tr>
-            <th scope="row">11:45 - 12:30</th>
-            <td>
-              IA y LLMs: Un Atajo Eficiente entre los Datos y las Decisiones
-            </td>
-            <td>
-              Robótica Móvil y Percepción Artificial en el Ámbito de la Salud
-            </td>
-          </tr>
-          <tr>
-            <th scope="row">17:30 - 18:15</th>
-            <td rowspan="2">
-              Ciberinteligencia 101; de tener un VPS a detectar una
-              ciberoperación rusa
-            </td>
-            <td rowspan="2">Trading Cripto: Desde las APIs hasta el Código</td>
-            <td>Descubre el Poder de la IA Generativa con Microsoft Azure</td>
-            <td>Computación Cuántica: un nuevo reto en Ciberseguridad</td>
-            <td rowspan="2">-</td>
-          </tr>
-          <tr>
-            <th scope="row">18:30 - 19:15</th>
-            <td>Privacidad y Anonimato para Dummies</td>
-            <td>Ingeniería de la Salud: Del aula a la industria</td>
-          </tr>
-        </tbody>
-      </table>
+      <Schedule />
     </table-container>
   </section>
   <section id="location">
@@ -312,31 +263,6 @@
       overflow-x: auto;
       @media (width < 768px) {
         max-width: calc(100% - 32px);
-      }
-    }
-    table {
-      table-layout: fixed;
-      min-width: 1000px;
-      width: 100%;
-      border-collapse: collapse;
-      & > tbody > tr {
-        & > th {
-          font-size: 1.25em;
-          text-wrap: nowrap;
-        }
-        &:nth-child(odd) {
-          background-color: light-dark(#eeeeee, #333333);
-        }
-        &:nth-child(even) {
-          background-color: light-dark(#ffffff, #3e3e3e);
-        }
-      }
-      th,
-      td {
-        padding: 0.6em;
-        text-align: center;
-        text-wrap: balance;
-        border: var(--border);
       }
     }
   }
