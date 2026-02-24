@@ -3,7 +3,6 @@
   import Sun from "@lucide/svelte/icons/sun";
   import SunMoon from "@lucide/svelte/icons/sun-moon";
   import type { FormEventHandler } from "svelte/elements";
-  import favicon from "$lib/assets/icon.svg";
   import Logo from "$lib/components/Logo.svelte";
 
   const oninput: FormEventHandler<HTMLInputElement> = (e) =>
@@ -13,7 +12,10 @@
 </script>
 
 <svelte:head>
-  <link rel="icon" href={favicon} />
+  <link rel="manifest" href="/manifest.json" />
+  <link rel="icon" href="/icon/favicon.ico" sizes="32x32" />
+  <link rel="icon" href="/icon/icon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="/icon/apple-touch-icon.png" />
   <meta name="color-scheme" content="light dark" />
 </svelte:head>
 
