@@ -32,6 +32,7 @@
   }
   article {
     padding: 16px;
+    padding-top: 0;
   }
   h1:first-of-type {
     font-size: 3em;
