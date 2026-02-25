@@ -1,7 +1,7 @@
 ---
 title: 'Bots, Fraude y el Negocio de Romper Juegos'
 description: 'Una ponencia sobre los atacantes en los videojuesgos y por qué proteger los juegos significa proteger la confianza y el valor que los jugadores construyen dentro de ellos.'
-presenter: 'Alberto Guerra Gonzalez'
+presenter: 'Alberto Guerra González'
 organization: 'Riot Games'
 date: '2026-03-10'
 start: '10:45'

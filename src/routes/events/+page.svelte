@@ -38,6 +38,14 @@
   }
 </script>
 
+<svelte:head>
+  <title>Eventos | Hackers Week</title>
+  <meta
+    name="description"
+    content="Información sobre actividades de la Hackers Week"
+  />
+</svelte:head>
+
 <main>
   <h1>Eventos</h1>
   {#each Object.entries(articles).toSorted() as [date, articleList]}
@@ -83,6 +91,9 @@
     font-family: "Nevis";
     text-align: center;
     text-transform: uppercase;
+  }
+  h2 {
+    text-transform: capitalize;
   }
   h3 {
     font-size: x-large;
