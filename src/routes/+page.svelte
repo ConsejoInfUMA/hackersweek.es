@@ -50,10 +50,16 @@
         <a href="https://www.uma.es/etsi-informatica/" target="_blank">
           E.T.S. de Ingeniería Informática
         </a>
-        de la Universidad de Málaga, organizado por CEETSII, su consejo de estudiantes.
-        Cuenta con un amplio horario lleno de actividades, conferencias y talleres,
-        sobre temas como la seguridad informática, programación, investigación, videojuegos
-        e inteligencia artificial.
+        de la Universidad de Málaga, organizado por
+        <a
+          href="https://www.uma.es/etsi-informatica/info/126304/consejo-de-estudiantes/"
+          target="_blank"
+        >
+          CEETSII
+        </a>, su consejo de estudiantes. Cuenta con un amplio horario lleno de
+        actividades, conferencias y talleres, sobre temas como la seguridad
+        informática, programación, investigación, videojuegos e inteligencia
+        artificial.
       </p>
       <p>
         Además de las actividades anteriormente mencionadas, se ponen a

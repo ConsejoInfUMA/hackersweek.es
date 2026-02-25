@@ -52,8 +52,14 @@
 {@render children()}
 <footer>
   <p>
-    Desarrollada en <a href="https://svelte.dev/" target="_blank">SvelteKit</a> por
-    el Consejo de Estudiantes de la ETSII
+    Desarrollada en <a href="https://svelte.dev/" target="_blank">SvelteKit</a>
+    por el
+    <a
+      href="https://www.uma.es/etsi-informatica/info/126304/consejo-de-estudiantes/"
+      target="_blank"
+    >
+      Consejo de Estudiantes de la ETSII
+    </a>
   </p>
   <a href="https://github.com/ConsejoInfUMA/hackersweek.es/" target="_blank">
     Ver página en GitHub
