@@ -268,7 +268,7 @@
       max-width: 75%;
       overflow-x: auto;
       @media (width < 768px) {
-        max-width: calc(100% - 32px);
+        max-width: calc(100% - 16px);
       }
     }
   }
