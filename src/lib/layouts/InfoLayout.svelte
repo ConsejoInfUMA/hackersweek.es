@@ -49,6 +49,7 @@
     padding: 32px;
     h1:first-of-type {
       text-align: center;
+      text-wrap: balance;
       font-size: 2.5em;
     }
     @media (width < 768px) {
