@@ -1,7 +1,7 @@
 ---
 title: Kit de Prensa
 description: Información para la prensa sobre imágenes y logotipos
-layout: info
+layout: main
 ---
 
 Si tienes interés en escribir sobre la Hackers Week,

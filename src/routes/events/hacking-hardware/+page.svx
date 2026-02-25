@@ -5,7 +5,7 @@ presenter: 'David Santo Orcero'
 date: '2026-03-12'
 start: '10:45'
 end: '11:30'
-layout: info
+layout: article
 ---
 
 En esta conferencia comentaremos las técnicas más útiles de hacking de disposivios hardware, y veremos un modelo de flujo de trabajo y herramientas (hardware y software) para poder hacer un test de intrusión a dispositivos empotrados e IoT. 

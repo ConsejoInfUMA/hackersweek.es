@@ -36,7 +36,7 @@
         <a href="#location">
           <button>Ubicación</button>
         </a>
-        <a href="/ponentes">
+        <a href="/colaborar">
           <button>Call For Papers</button>
         </a>
       </nav>

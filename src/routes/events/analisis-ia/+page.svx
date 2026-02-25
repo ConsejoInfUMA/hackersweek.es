@@ -6,7 +6,7 @@ organization: 'Fortris'
 date: '2026-03-10'
 start: '17:30'
 end: '19:15'
-layout: info
+layout: article
 ---
 
 "En este taller nos adentraremos en cómo la inteligencia artificial y los modelos de lenguaje de gran tamaño (LLM) están revolucionando el análisis de datos. Desde la automatización de tareas tediosas como la preparación de datos y el análisis exploratorio (EDA) hasta la simplificación de la visualización, con el objetivo de extraer insights y tomar mejores decisiones sin apenas necesidad de código. A través de ejemplos guiados con Python utilizaremos la IA y los LLM para demostrar como ahorran tiempo, optimizan el flujo de trabajo y eliminar la necesidad de tareas repetitivas o de programación compleja. Tanto si eres un analista con experiencia como si estás dando tus primeros pasos, esta sesión introductoria mostrará formas prácticas de mejorar tu proceso de análisis de datos con IA.""

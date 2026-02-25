@@ -12,7 +12,8 @@ export default {
 	// for more information about preprocessors
 	preprocess: [vitePreprocess(), mdsvex({
 		layout: {
-			info: path.join(import.meta.dirname, './src/lib/layouts/InfoLayout.svelte')
+			article: path.join(import.meta.dirname, './src/lib/layouts/ArticleLayout.svelte'),
+			main: path.join(import.meta.dirname, './src/lib/layouts/MainLayout.svelte')
 		}
 	}) as PreprocessorGroup],
 

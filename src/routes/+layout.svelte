@@ -25,7 +25,7 @@
     <a href="/news">Noticias</a>
     <a href="/events">Eventos</a>
     <a href="/press-kit">Prensa</a>
-    <a href="/archives">Archivos</a>
+    <a href="/colaborar">Colaborar</a>
   </nav>
   <theme-picker aria-label="Selector de temas" role="radiogroup">
     <label aria-label="Predeterminado">

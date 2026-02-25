@@ -2,7 +2,7 @@
 title: 'Call for Papers 2025-26'
 description: 'Call for Papers para ponentes y conductores de talleres para los eventos de la Hackers Week 12'
 date: '2025-10-01T09:30:00'
-layout: info
+layout: article
 ---
 
 Un año más el Consejo de Estudiantes de la Escuela Técnica Superior de Ingeniería Informática
@@ -20,4 +20,8 @@ La duración de la actividad tendrá una duración máxima a **1 hora y 45 minut
 
 ## Envío de Propuestas
 Si estás interesado en participar como ponente o conductor/a de una actividad, o contribuir mediante patrocinios,
-consulta nuestra [página de ponentes](/ponentes).
+consulta nuestra página de ponentes en el siguiente enlace:
+
+<a href="/colaborar">
+  <button>Página de Ponentes</button>
+</a>

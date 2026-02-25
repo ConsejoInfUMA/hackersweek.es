@@ -1,0 +1,40 @@
+---
+title: Colaborar
+description: Información para ponentes, conductores de talleres y patrocinadores para colaborar en la Hackers Week
+layout: main
+---
+
+El Consejo de Estudiantes de la Escuela Técnica Superior de Ingeniería Informática
+de la Universidad de Málaga se ha puesto en marcha para organizar la "[Hackers Week](/)".
+
+El evento se celebrará del 9 al 13 de marzo de 2026.
+
+## Modalidades de Presentación
+Los autores pueden optar por diferentes modalidades de presentación:
+
+- Ponencias
+- Talleres
+
+La duración de la actividad tendrá una duración máxima a **1 hora y 45 minutos**.
+
+## Envío de Propuestas
+
+Si estás interesado en participar como ponente o conductor/a de una actividad,
+puedes rellenar el formulario a continuación.
+
+<a href="https://ceetsii.uma.es/limesurvey/index.php?r=survey/index&sid=721516&lang=es" target="_blank">
+  <button>Formulario de Propuestas</button>
+</a>
+
+## Sponsors / Colaboración
+
+Si estás interesado en participar como ponente o conductor/a de una actividad,
+puedes rellenar el formulario a continuación.
+
+<a href="https://ceetsii.uma.es/limesurvey/index.php?r=survey/index&sid=985564&lang=es" target="_blank">
+  <button>Formulario de Patrocinios</button>
+</a>
+
+<a href="https://ceetsii.uma.es/nextcloud/s/e2aCNDAkdqHm7cE" target="_blank">
+  <button>Dossier de Patrocinadores</button>
+</a>

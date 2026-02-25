@@ -6,7 +6,7 @@ organization: "OpenBokeron"
 date: '2026-03-09'
 start: '17:30'
 end: '19:15'
-layout: info
+layout: article
 ---
 
 En este taller aprenderán cómo funciona la Integración y Despliegue Continuos en un entorno real. Se presentarán distintos servidores de automatización, centrándonos en Jenkins, una plataforma Open Source altamente utilizada en entornos profesionales. Se dispondrá de un proyecto base (frontend + backend) alojado en nuestro Gitea, que servirá como ejemplo práctico durante toda la sesión. El taller consistirá en dos secciones: una dónde actúen como desarrolladores y observen el flujo de Jenkins desde fuera (linting, tests, builds automáticos y deploy) y otra sección donde configuren su propio Jenkins en una máquina virtual dada. Se busca que obtengan una visión transversal sobre el flujo de desarrollo profesional. 

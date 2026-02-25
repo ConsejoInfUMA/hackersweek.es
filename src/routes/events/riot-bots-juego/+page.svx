@@ -6,7 +6,7 @@ organization: 'Riot Games'
 date: '2026-03-10'
 start: '10:45'
 end: '12:30'
-layout: info
+layout: article
 ---
 
 En el mundo de los juegos en línea, el riesgo luce muy diferente al de la banca o el comercio electrónico. Los jugadores esperan diversión sin fricciones, no verificaciones de identidad. Sin embargo, detrás de cada inicio de sesión existe una economía de compraventa con dinero real, automatización y robo de cuentas que alimenta un enorme mercado clandestino. Esta charla explora cómo los distintos atacantes en línea obtienen beneficios de los videojuegos —desde granjas de bots y automatización impulsada por IA hasta redes de reventa y campañas de phishing— y por qué el entorno del gaming representa un objetivo de alto beneficio y bajo riesgo legal. También analizaremos cómo los estudios responden mediante autenticación basada en riesgo, defensas conductuales y un equilibrio constante entre seguridad y experiencia del jugador. A través de ejemplos reales y ejercicios interactivos de “piensa como ambos bandos”, los asistentes comprenderán cómo defensores y atacantes se adaptan en una dinámica continua de gato y ratón. La charla concluye con consejos prácticos: proteger tu cuenta, detectar phishing, monitorear filtraciones de credenciales y participar en programas como el Bug Bounty de Riot. Tanto estudiantes como profesionales saldrán con una visión clara de cómo las realidades del negocio moldean las decisiones de seguridad. 
