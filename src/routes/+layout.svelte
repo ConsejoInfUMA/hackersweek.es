@@ -169,7 +169,7 @@
       text-transform: uppercase;
       font-weight: bold;
       & > a {
-        color: CanvasText;
+        color: var(--primary);
       }
     }
   }

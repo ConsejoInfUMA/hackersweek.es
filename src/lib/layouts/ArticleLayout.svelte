@@ -58,10 +58,16 @@
     max-width: calc(100% - 96px);
     text-align: justify;
     padding: 32px;
+    padding-bottom: 16px;
     h1:first-of-type {
       text-align: center;
       text-wrap: balance;
+      color: var(--primary);
       font-size: 2.5em;
+      margin-top: 0;
+    }
+    address {
+      font-size: larger;
     }
     @media (width < 768px) {
       padding: 16px;

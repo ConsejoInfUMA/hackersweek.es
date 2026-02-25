@@ -28,12 +28,16 @@
   main {
     margin: 0 auto;
     width: 1000px;
-    max-width: calc(100% - 64px);
-    padding: 32px;
+    max-width: 100%;
+  }
+  article {
+    padding: 16px;
   }
   h1:first-of-type {
     font-size: 3em;
     font-family: "Nevis";
+    color: var(--primary);
+    font-weight: bold;
     text-align: center;
     text-transform: uppercase;
   }
