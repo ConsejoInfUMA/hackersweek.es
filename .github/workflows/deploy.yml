@@ -30,7 +30,7 @@ jobs:
         run: pnpm install --frozen-lockfile
 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@983d7736d9b0ae728b81ab479565c72886d7745b # v5
         with:
           static_site_generator: "sveltekit"
           generator_config_file: "svelte.config.ts"
@@ -39,7 +39,7 @@ jobs:
         run: node --run build
           
       - name: Upload Artifacts
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@7b1f4a764d45c48632c6b24a0339c27f5614fb0b # v4
         with:
           # this should match the `pages` option in your adapter-static options
           path: 'build/'
