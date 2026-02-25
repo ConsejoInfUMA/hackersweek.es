@@ -88,6 +88,7 @@
   }
   article {
     padding: 16px;
+    background-color: var(--secondary-background);
   }
   h1 {
     font-size: 3em;
@@ -99,6 +100,7 @@
   }
   h2 {
     text-transform: capitalize;
+    margin-left: 20px;
   }
   h3 {
     font-size: x-large;

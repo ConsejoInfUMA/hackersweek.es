@@ -80,6 +80,7 @@
   }
   article {
     border: var(--border);
+    background-color: var(--secondary-background);
     &:has(+ article) {
       border-bottom: 0;
     }
