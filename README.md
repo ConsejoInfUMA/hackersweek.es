@@ -1,8 +1,6 @@
-# hackersweek.es
+# https://hackersweek.es
 
-super work in progress
-
-rewrite de hackersweek.es
+Sitio web de la Hackers Week, escrito en SvelteKit
 
 # Setup
 
