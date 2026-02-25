@@ -1,6 +1,6 @@
 ---
 title: 'Introducción al hacking hardware'
-description: 'fría eh no era una guerra como tal'
+description: ''placeholder de descripción''
 presenter: 'David Santo Orcero'
 date: '2026-03-12'
 start: '10:45'

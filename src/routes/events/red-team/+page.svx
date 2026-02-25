@@ -1,6 +1,6 @@
 ---
 title: "Vivir sin COM-promisos: Del acceso inicial a la persistencia en operaciones Red Team"
-description: fría eh no era una guerra como tal
+description: 'placeholder de descripción'
 presenter: 'David Palomar'
 organization: 'Accenture'
 date: '2026-03-11'

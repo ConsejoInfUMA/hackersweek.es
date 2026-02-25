@@ -1,6 +1,6 @@
 ---
 title: 'Bots, Fraude y el Negocio de Romper Juegos'
-description: fría eh no era una guerra como tal
+description: 'placeholder de descripción'
 presenter: 'Alberto Guerra Gonzalez'
 organization: 'Riot Games'
 date: '2026-03-10'

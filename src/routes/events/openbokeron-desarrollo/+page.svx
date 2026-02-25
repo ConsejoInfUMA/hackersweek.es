@@ -1,7 +1,7 @@
 ---
 title: 'De cero a producción: automatiza tu flujo de desarrollo'
-description: fría eh no era una guerra como tal
-presenter: "Amin Chaloukh"
+description: 'placeholder de descripción'
+presenter: "Amin Chaloukh El Mohammadi"
 organization: "OpenBokeron"
 date: '2026-03-09'
 start: '17:30'

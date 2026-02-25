@@ -5,6 +5,8 @@
     title: string;
     description: string;
     children: Snippet;
+    presenter?: string;
+    organization?: string;
   }
 
   let props: Props = $props();
@@ -16,12 +18,20 @@
 </svelte:head>
 
 <hr role="none" />
-<post-content>
-  <main>
+<main>
+  <article>
     <h1>{props.title}</h1>
+    {#if props.presenter}
+      <address>
+        {props.presenter}
+        {#if props.organization}
+          ({props.organization})
+        {/if}
+      </address>
+    {/if}
     {@render props.children?.()}
-  </main>
-</post-content>
+  </article>
+</main>
 <hr role="none" />
 
 <style>
@@ -29,7 +39,7 @@
     --transparent-border: 1px solid color-mix(in srgb, gray 50%, Canvas);
   }
 
-  main {
+  article {
     border-left: var(--transparent-border);
     border-right: var(--transparent-border);
     margin: 0 auto;
@@ -39,7 +49,7 @@
     padding: 32px;
     h1:first-of-type {
       text-align: center;
-      font-size: 3em;
+      font-size: 2.5em;
     }
     @media (width < 768px) {
       padding: 16px;
@@ -47,7 +57,7 @@
     }
   }
 
-  post-content {
+  main {
     display: block;
     border-top: var(--transparent-border);
     border-bottom: var(--transparent-border);
