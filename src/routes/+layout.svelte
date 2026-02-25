@@ -17,6 +17,7 @@
   <link rel="icon" href="/icon/icon.svg" type="image/svg+xml" />
   <link rel="apple-touch-icon" href="/icon/apple-touch-icon.png" />
   <meta name="color-scheme" content="light dark" />
+  <meta name="theme-color" content="#1da0ba" />
 </svelte:head>
 
 <header>
