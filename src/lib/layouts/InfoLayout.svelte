@@ -19,7 +19,7 @@
 <post-content>
   <main>
     <h1>{props.title}</h1>
-    {@render props.children()}
+    {@render props.children?.()}
   </main>
 </post-content>
 <hr role="none" />

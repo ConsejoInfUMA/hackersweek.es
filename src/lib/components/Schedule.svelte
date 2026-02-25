@@ -23,10 +23,13 @@
     end: Temporal.PlainTime;
   }
 
-  const files = import.meta.glob<true, string, ArticlePage>("../events/*.svx", {
-    import: "metadata",
-    eager: true,
-  });
+  const files = import.meta.glob<true, string, ArticlePage>(
+    "../../routes/events/*/+page.svx",
+    {
+      import: "metadata",
+      eager: true,
+    },
+  );
 
   const times = ["10:45", "11:45", "17:30", "18:30"].map((t) =>
     Temporal.PlainTime.from(t),
@@ -37,7 +40,7 @@
     articles[time.toString({ smallestUnit: "minute" })] = [];
   }
 
-  const SLUG_REGEX = /[^/]+(?=\.svx$)/;
+  const SLUG_REGEX = /[^/]+(?=\/\+page\.svx$)/;
   for (const [path, metadata] of Object.entries(files)) {
     const slug = SLUG_REGEX.exec(path)?.[0]!;
 
@@ -62,7 +65,6 @@
       end,
     };
   }
-  console.log(articles);
 
   function getSpan(duration: Temporal.Duration): number {
     const comparison = Temporal.Duration.compare(
