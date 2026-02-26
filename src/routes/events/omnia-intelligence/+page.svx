@@ -1,5 +1,5 @@
 ---
-title: "Omnia: Collective Cyber Intelligence. Powered by AI. United by Community."
+title: 'Omnia: Collective Cyber Intelligence. Powered by AI. United by Community.'
 description: 'Una ponencia centrada en la plataforma Omnia y todas sus posibilidades'
 presenter: 'Alejandro García Peláez'
 date: '2026-03-09'
@@ -8,4 +8,6 @@ end: '12:30'
 layout: article
 ---
 
-En esta conferencia descubrirás la plataforma omniasec.ai, un LLM con gran enfoque en la comunidad. Descubrirás cada una de sus ventajas y posibilidades, respaldado por uno de sus desarrolladores.
+En esta conferencia descubrirás la plataforma omniasec.ai, un LLM con gran enfoque en la comunidad.
+
+Descubrirás cada una de sus ventajas y posibilidades, respaldado por uno de sus desarrolladores.

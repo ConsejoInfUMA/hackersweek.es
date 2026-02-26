@@ -1,6 +1,6 @@
 ---
-title: "Vivir sin COM-promisos: Del acceso inicial a la persistencia en operaciones Red Team"
-description: 'placeholder de descripción'
+title: 'Vivir sin COM-promisos: Del acceso inicial a la persistencia en operaciones Red Team'
+description: 'TODO: Añadir descripción'
 presenter: 'David Palomar'
 organization: 'Accenture'
 date: '2026-03-11'
@@ -8,3 +8,5 @@ start: '10:45'
 end: '12:30'
 layout: article
 ---
+
+TODO: Añadir cuerpo

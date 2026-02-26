@@ -1,5 +1,5 @@
 ---
-title: Construye y Despliega tu API Ready-for-Production
+title: 'Construye y Despliega tu API Ready-for-Production'
 description: 'Un taller donde llevar a la práctica tu propia API'
 presenter: 'Javier Torralbo Cortés, Alejandro Cerezo Contreras'
 date: '2026-03-11'
@@ -8,4 +8,13 @@ end: '19:15'
 layout: article
 ---
 
- ¿Cansado de que tus proyectos solo funcionen en tu máquina? En esta sesión práctica, cerraremos la brecha entre el desarrollo local y la producción real. Aprenderás a construir desde cero una Minimal API en C# siguiendo estándares de calidad, incluyendo la implementación de unit testing para asegurar un código robusto antes de dar el salto a la nube. Transformaremos el flujo de trabajo manual en un pipeline automatizado de CI/CD utilizando GitHub Actions. Veremos cómo integrar el despliegue continuo en Azure de forma eficiente, permitiéndote pasar de una idea a una API lista para producción en tiempo récord. Es el momento de llevar tu software más allá del localhost y dominar el ciclo completo del despliegue moderno. 
+¿Cansado de que tus proyectos solo funcionen en tu máquina?
+
+En esta sesión práctica, cerraremos la brecha entre el desarrollo local y la producción real.
+Aprenderás a construir desde cero una Minimal API en C# siguiendo estándares de calidad,
+incluyendo la implementación de unit testing para asegurar un código robusto antes de dar el salto a la nube.
+
+Transformaremos el flujo de trabajo manual en un pipeline automatizado de CI/CD utilizando GitHub Actions y
+veremos cómo integrar el despliegue continuo en Azure de forma eficiente, permitiéndote pasar de una idea a una API lista para producción en tiempo récord.
+
+Es el momento de llevar tu software más allá del localhost y dominar el ciclo completo del despliegue moderno. 

@@ -1,5 +1,5 @@
 ---
-title: "Cómo hacer tu servidor invisible y tus propios protocolos"
+title: 'Cómo hacer tu servidor invisible y tus propios protocolos'
 description: 'Un taller introductorio a la realización de tu propio servidor'
 presenter: 'Rafael Ruiz Villén'
 organization: 'Cloud y Olé'
@@ -9,4 +9,7 @@ end: '19:15'
 layout: article
 ---
 
-Introducción al framework Twisted y sockets de Python para crear servidores y protocolos custom. Creación y puesta en producción de un servicio de portknocking usando Twisted+iptables que habilite sólo a las IP que conozcan el santo y seña para que puedan conectarse. 
+Introducción al framework Twisted y sockets de Python para crear servidores y protocolos custom.
+
+Creación y puesta en producción de un servicio de portknocking usando Twisted + iptables
+que habilite sólo a las IP que conozcan la combinación configurada.
