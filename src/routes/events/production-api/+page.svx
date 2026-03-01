@@ -1,5 +1,5 @@
 ---
-title: 'Construye y Despliega tu API Ready-for-Production'
+title: 'Construye y Despliega tu API Ready-for-Production: Minimal API en C#, Github Actions y Azure'
 description: 'Un taller donde llevar a la práctica tu propia API'
 presenter: 'Javier Torralbo Cortés, Alejandro Cerezo Contreras'
 date: '2026-03-11'
