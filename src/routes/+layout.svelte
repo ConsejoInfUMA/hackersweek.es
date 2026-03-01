@@ -23,7 +23,6 @@
 <header>
   <a href="/"><Logo height="34" /></a>
   <nav>
-    <a href="/news">Noticias</a>
     <a href="/events">Eventos</a>
     <a href="/press-kit">Prensa</a>
     <a href="/colaborar">Colaborar</a>
