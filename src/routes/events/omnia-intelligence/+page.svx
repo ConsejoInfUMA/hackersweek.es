@@ -8,6 +8,8 @@ end: '12:30'
 layout: article
 ---
 
+**Lugar**: Salón de Actos
+
 En esta conferencia descubrirás la plataforma omniasec.ai, un LLM con gran enfoque en la comunidad.
 
 Descubrirás cada una de sus ventajas y posibilidades, respaldado por uno de sus desarrolladores.

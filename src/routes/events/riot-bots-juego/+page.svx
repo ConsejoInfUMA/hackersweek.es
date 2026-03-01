@@ -9,6 +9,8 @@ end: '12:30'
 layout: article
 ---
 
+**Lugar**: Salón de Actos
+
 En el mundo de los juegos en línea, el riesgo luce muy diferente al de la banca o el comercio electrónico.
 
 Los jugadores esperan diversión sin fricciones, no verificaciones de identidad. 

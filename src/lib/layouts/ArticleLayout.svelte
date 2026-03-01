@@ -7,6 +7,9 @@
     children: Snippet;
     presenter?: string;
     organization?: string;
+    date: string;
+    start: string;
+    end: string;
   }
 
   let props: Props = $props();
@@ -40,6 +43,8 @@
         {/if}
       </address>
     {/if}
+    <p><b>Fecha</b>: {props.date}</p>
+    <p><b>Hora</b>: {props.start} - {props.end}</p>
     {@render props.children?.()}
   </article>
 </main>
