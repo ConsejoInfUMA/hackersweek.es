@@ -15,4 +15,4 @@ Esta charla presenta el diseño y puesta en marcha de una **API de extracción i
 admite múltiples fuentes de entrada (URLs y almacenamiento en la nube)
 y mejora la fiabilidad mediante **consenso/“confidence” con múltiples modelos**.
 
-Compartiremos arquitectura, patrones de contrato de API, validación, y aprendizajes prácticos para convertir extracción con LLMs en un servicio de plataforma estable y medible. 
+Compartiremos arquitectura, patrones de contrato de API, validación, y aprendizajes prácticos para convertir extracción con LLMs en un servicio de plataforma estable y medible.
