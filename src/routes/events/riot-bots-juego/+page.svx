@@ -30,3 +30,7 @@ La charla concluye con consejos prácticos:
 - Participar en programas como el Bug Bounty de Riot.
 
 Tanto estudiantes como profesionales saldrán con una visión clara de cómo las realidades del negocio moldean las decisiones de seguridad.
+
+<a href="https://www.eventbrite.com/e/bots-fraude-y-el-negocio-de-romper-juegos-tickets-1984233908033" target="_blank">
+  <button>Entradas</button>
+</a>

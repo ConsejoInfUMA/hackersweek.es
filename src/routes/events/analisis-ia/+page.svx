@@ -16,3 +16,7 @@ Desde la automatización de tareas tediosas como la preparación de datos y el a
 A través de ejemplos guiados con Python utilizaremos la IA y los LLM para demostrar como ahorran tiempo, optimizan el flujo de trabajo y eliminar la necesidad de tareas repetitivas o de programación compleja.
 
 Tanto si eres un analista con experiencia como si estás dando tus primeros pasos, esta sesión introductoria mostrará formas prácticas de mejorar tu proceso de análisis de datos con IA.
+
+<a href="https://www.eventbrite.com/e/analisis-de-datos-con-ia-menos-codigo-mas-insights-tickets-1984234320266" target="_blank">
+  <button>Entradas</button>
+</a>

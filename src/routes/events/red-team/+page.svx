@@ -17,3 +17,7 @@ una técnica de persistencia COM y una parte práctica referente a la persistenc
 - Tener una VM de Kali Linux
 - Tener una VM de Windows configurado en modo puente
 - Snapshot OBLIGATORIO!
+
+<a href="https://www.eventbrite.com/e/vivir-sin-com-promisos-del-acceso-inicial-a-la-persistencia-tickets-1984235703403" target="_blank">
+  <button>Entradas</button>
+</a>

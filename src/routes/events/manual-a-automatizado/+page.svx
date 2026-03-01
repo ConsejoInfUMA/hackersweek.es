@@ -1,6 +1,6 @@
 ---
 title: 'De lo manual a lo automatizado: cómo diseñar una API de extracción inteligente de datos desde documentos con LLMs'
-description: 'Extracción de datos automatizada para el sector financiero.'
+description: 'Extracción de datos automatizado para el sector financiero.'
 presenter: 'Fernando López Prieto'
 organization: 'Ebury'
 date: '2026-03-09'
@@ -16,3 +16,7 @@ admite múltiples fuentes de entrada (URLs y almacenamiento en la nube)
 y mejora la fiabilidad mediante **consenso/“confidence” con múltiples modelos**.
 
 Compartiremos arquitectura, patrones de contrato de API, validación, y aprendizajes prácticos para convertir extracción con LLMs en un servicio de plataforma estable y medible.
+
+<a href="https://www.eventbrite.com/e/de-lo-manual-a-lo-automatizado-tickets-1984233564004" target="_blank">
+  <button>Entradas</button>
+</a>

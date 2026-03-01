@@ -12,3 +12,7 @@ layout: article
 En este taller aprenderán cómo funciona la Integración y Despliegue Continuos en un entorno real.
 
 Se presentarán distintos servidores de automatización, centrándonos en Jenkins, una plataforma Open Source altamente utilizada en entornos profesionales.
+
+<a href="https://www.eventbrite.com/e/de-cero-a-produccion-automatiza-tu-flujo-de-desarrollo-tickets-1984233660292" target="_blank">
+  <button>Entradas</button>
+</a>

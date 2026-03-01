@@ -11,3 +11,7 @@ layout: article
 En esta conferencia descubrirás la plataforma omniasec.ai, un LLM con gran enfoque en la comunidad.
 
 Descubrirás cada una de sus ventajas y posibilidades, respaldado por uno de sus desarrolladores.
+
+<a href="https://www.eventbrite.com/e/omnia-collective-cyber-intelligence-powered-by-ai-united-by-community-tickets-1984235972207" target="_blank">
+  <button>Entradas</button>
+</a>
