@@ -9,7 +9,23 @@
   import MetroMalaga from "$lib/components/icons/MetroMalaga.svelte";
   import Renfe from "$lib/components/icons/Renfe.svelte";
 
-  import { PUBLIC_CALL_FOR_PAPERS_OPEN } from "$env/static/public";
+  import {
+    PUBLIC_CALL_FOR_PAPERS_OPEN,
+    PUBLIC_EVENT_START_DATE,
+    PUBLIC_EVENT_END_DATE,
+  } from "$env/static/public";
+
+  import { Temporal } from "temporal-polyfill-lite";
+
+  const startPlainDate = Temporal.PlainDate.from(PUBLIC_EVENT_START_DATE);
+  const endPlainDate = Temporal.PlainDate.from(PUBLIC_EVENT_END_DATE);
+
+  const start = startPlainDate.toLocaleString("es", { day: "2-digit" });
+  const end = endPlainDate.toLocaleString("es", {
+    day: "2-digit",
+    month: "long",
+  });
+  const year = endPlainDate.year;
 </script>
 
 <svelte:head>
@@ -28,8 +44,8 @@
         <HackersWeekEdition height="1.13em" />
       </h1>
       <h2>
-        <time datetime="2026-03-09">09</time> -
-        <time datetime="2026-03-13">13 de Marzo 2026</time>
+        <time datetime={PUBLIC_EVENT_START_DATE}>{start}</time> -
+        <time datetime={PUBLIC_EVENT_END_DATE}>{end} {year}</time>
       </h2>
       <nav>
         <a href="#schedule">
