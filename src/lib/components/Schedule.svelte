@@ -8,6 +8,7 @@
     title: string;
     presenter: string;
     organization?: string;
+    draft?: boolean;
     date: string;
     start: string;
     end: string;
@@ -42,6 +43,10 @@
 
   const SLUG_REGEX = /[^/]+(?=\/\+page\.svx$)/;
   for (const [path, metadata] of Object.entries(files)) {
+    if (metadata.draft) {
+      continue;
+    }
+
     const slug = SLUG_REGEX.exec(path)?.[0]!;
 
     const date = Temporal.PlainDate.from(metadata.date);
