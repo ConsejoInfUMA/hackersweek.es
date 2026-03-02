@@ -1,0 +1,18 @@
+---
+title: 'Hackathon'
+type: 'actividad'
+organization: 'Cátedra Fintech'
+date: '2026-03-09'
+start: '16:00'
+end: '20:00'
+layout: article
+---
+
+Presentamos, de mano de la Cátedra Fintech, la hackathon de la Hackers Week.
+
+Un espacio para poner a prueba tu ingenio y desarrollar soluciones tecnológicas reales para el sector financiero.
+
+**Cuándo**: Lunes 9 y martes 10 de marzo de 16:00 a 20:00.
+**Lugar**: Aula 3.0.10.
+
+¡No te pierdas esta oportunidad de conectar con la innovación y llevarte el reto!

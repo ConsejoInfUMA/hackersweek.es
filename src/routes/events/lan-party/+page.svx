@@ -1,0 +1,22 @@
+---
+title: 'LAN Party'
+type: 'actividad'
+date: '2026-03-11'
+start: '10:45'
+end: '12:30'
+layout: article
+---
+
+## LAN Party
+Celebraremos una LAN Party de 16:00 a las 20:00 en la sala de grados C.
+
+Tráete tu portatil y júntate con tus amigo para jugar al LoL, Rocket League, Minecraft o lo que os apetezca.
+
+Además, puedes usar la Wii que tenemos disponible.
+
+## ETSIICraft
+Tenemos disponible un servidor de Minecraft con una recreacción de la ETSII, con varios modos de juegos listos.
+
+Haremos varios mini-torneos en este servidor en la 4.0.2 a la misma hora que la LAN Party.
+
+¡Os vemos ahí!

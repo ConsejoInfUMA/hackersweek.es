@@ -2,6 +2,7 @@
 title: 'Ingeniería de la Salud, del Aula a la Empresa'
 description: 'Egresados con trayectorias muy diversas compartirán sus experiencias'
 presenter: 'Egresados salud'
+type: 'ponencia'
 date: '2026-03-10'
 start: '10:45'
 end: '12:30'

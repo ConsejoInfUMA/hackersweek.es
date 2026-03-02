@@ -1,9 +1,8 @@
 ---
-title: '??'
-description: '??'
-presenter: '??'
+title: 'Capture the Flag'
+description: 'Captura la bandera.'
 organization: 'Incibe'
-type: '??'
+type: 'actividad'
 date: '2026-03-13'
 start: '10:45'
 end: '12:30'
