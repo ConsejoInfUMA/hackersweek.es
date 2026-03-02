@@ -3,6 +3,7 @@ title: 'De lo manual a lo automatizado: cómo diseñar una API de extracción in
 description: 'Extracción de datos automatizado para el sector financiero.'
 presenter: 'Fernando López Prieto'
 organization: 'Ebury'
+type: 'ponencia'
 date: '2026-03-09'
 start: '11:45'
 end: '12:30'

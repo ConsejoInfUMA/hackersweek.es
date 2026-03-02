@@ -128,9 +128,7 @@
   </section>
   <section id="schedule">
     <h2>Horario</h2>
-    <table-container>
-      <Schedule />
-    </table-container>
+    <Schedule />
   </section>
   <section id="location">
     <h2>Zona</h2>
@@ -316,14 +314,8 @@
     padding-bottom: 75px;
     align-items: center;
     justify-content: center;
-    table-container {
-      display: block;
-      height: auto;
-      max-width: 75%;
-      overflow-x: auto;
-      @media (width < 768px) {
-        max-width: calc(100% - 16px);
-      }
+    & > h2 {
+      margin: 0;
     }
   }
 

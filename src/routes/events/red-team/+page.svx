@@ -3,6 +3,7 @@ title: 'Vivir sin COM-promisos: Del acceso inicial a la persistencia en operacio
 description: 'Red Team y persistencia COM en Windows'
 presenter: 'Por confirmar'
 organization: 'Accenture'
+type: 'ponencia'
 date: '2026-03-11'
 start: '10:45'
 end: '12:30'
