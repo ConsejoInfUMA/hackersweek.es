@@ -4,6 +4,10 @@
 
   import Schedule from "$lib/components/Schedule.svelte";
 
+  import Accenture from "$lib/components/icons/Accenture.svelte";
+  import INCIBE from "$lib/components/icons/INCIBE.svelte";
+  import Krom from "$lib/components/icons/Krom.svelte";
+
   import Aena from "$lib/components/icons/Aena.svelte";
   import EMT from "$lib/components/icons/EMT.svelte";
   import MetroMalaga from "$lib/components/icons/MetroMalaga.svelte";
@@ -86,6 +90,14 @@
         disposición espacios habilitados con videojuegos, juegos de mesa o
         juegos de rol y también se realizan torneos y competiciones.
       </p>
+      <sponsors-section>
+        <h3>Patrocinado por</h3>
+        <sponsor-list>
+          <Accenture height="45" />
+          <INCIBE height="45" />
+          <Krom height="45" />
+        </sponsor-list>
+      </sponsors-section>
     </div>
     <figure>
       <enhanced:img
@@ -272,6 +284,28 @@
       max-width: 100%;
       display: block;
       border: var(--border);
+    }
+  }
+
+  sponsors-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    & > h3 {
+      color: var(--primary);
+      font-family: Nevis, sans-serif;
+      text-transform: uppercase;
+      font-size: 1.5em;
+      margin: 0 0 0.4em 0;
+    }
+    & > sponsor-list {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px 40px;
     }
   }
 
