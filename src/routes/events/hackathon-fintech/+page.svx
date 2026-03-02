@@ -8,11 +8,11 @@ end: '20:00'
 layout: article
 ---
 
+**Lugar**: Aula 3.0.10.
+
 Presentamos, de mano de la Cátedra Fintech, la hackathon de la Hackers Week.
 
-Un espacio para poner a prueba tu ingenio y desarrollar soluciones tecnológicas reales para el sector financiero.
-
-**Cuándo**: Lunes 9 y martes 10 de marzo de 16:00 a 20:00.
-**Lugar**: Aula 3.0.10.
+Un espacio para poner a prueba tu ingenio y desarrollar soluciones tecnológicas reales para el sector financiero,
+el **lunes 9 y martes 10 de marzo de 16:00 a 20:00**.
 
 ¡No te pierdas esta oportunidad de conectar con la innovación y llevarte el reto!
