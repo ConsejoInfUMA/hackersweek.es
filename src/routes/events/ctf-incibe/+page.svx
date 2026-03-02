@@ -6,8 +6,9 @@ type: 'actividad'
 date: '2026-03-13'
 start: '10:45'
 end: '12:30'
-draft: true
 layout: article
 ---
 
 **Lugar**: Salón de Actos
+
+🚧 En construcción
