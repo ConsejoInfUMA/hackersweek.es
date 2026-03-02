@@ -1,0 +1,16 @@
+---
+title: 'Jornadas de Rol'
+description: 'Sesiones de Rol'
+type: 'actividad'
+date: '2026-03-12'
+start: '16:00'
+end: '20:30'
+layout: article
+---
+
+**Lugar**: Salón de Actos
+
+El día jueves 12 y viernes 13 de marzo de 16:00 a 20:30 se celebrarán en la cuarta planta del edificio biblioteca,
+salas de reuniones A y B las sesiones de rol.
+
+🚧 En construcción
