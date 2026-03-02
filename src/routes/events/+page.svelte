@@ -4,7 +4,7 @@
   interface ArticlePage {
     title: string;
     description: string;
-    presenter: string;
+    presenter?: string;
     organization?: string;
     draft?: boolean;
     date: string;
@@ -73,9 +73,13 @@
           <time datetime={article.end}>{article.end}</time>
         </strong>
         <address>
-          {article.presenter}
-          {#if article.organization}
-            ({article.organization})
+          {#if article.presenter}
+            {article.presenter}
+            {#if article.organization}
+              ({article.organization})
+            {/if}
+          {:else if article.organization}
+            {article.organization}
           {/if}
         </address>
         <p>{article.description}</p>
