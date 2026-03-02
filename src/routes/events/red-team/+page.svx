@@ -1,7 +1,7 @@
 ---
 title: 'Vivir sin COM-promisos: Del acceso inicial a la persistencia en operaciones Red Team'
 description: 'Red Team y persistencia COM en Windows'
-presenter: 'Por confirmar'
+presenter: 'Antonio Jiménez & Rubén Hernández'
 organization: 'Accenture'
 type: 'ponencia'
 date: '2026-03-11'
