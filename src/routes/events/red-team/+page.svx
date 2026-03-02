@@ -1,7 +1,7 @@
 ---
 title: 'Vivir sin COM-promisos: Del acceso inicial a la persistencia en operaciones Red Team'
 description: 'Red Team y persistencia COM en Windows'
-presenter: 'David Palomar'
+presenter: 'Por confirmar'
 organization: 'Accenture'
 date: '2026-03-11'
 start: '10:45'
