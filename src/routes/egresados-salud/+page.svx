@@ -1,0 +1,19 @@
+---
+title: 'Ingeniería de la Salud, del Aula a la Empresa'
+description: 'Egresados con trayectorias muy diversas compartirán sus experiencias'
+presenter: 'Egresados salud'
+date: '2026-03-10'
+start: '10:45'
+end: '12:30'
+layout: article
+---
+
+**Lugar**: 3.0.2
+
+¿Qué opciones hay después de terminar Ingeniería de la Salud?
+
+En esta charla, egresados con trayectorias muy diversas compartirán sus experiencias.
+
+<a href="https://www.eventbrite.com/e/ingenieria-de-la-salud-del-aula-a-la-empresa-tickets-1984289352870" target="_blank">
+  <button>Entradas</button>
+</a>
