@@ -1,0 +1,15 @@
+---
+title: 'Paellada'
+description: 'Acto de clausura'
+type: 'actividad'
+date: '2026-03-13'
+start: '14:30'
+end: '16:30'
+layout: article
+---
+
+El 13 de marzo tendrá lugar una paellada en la Escuela Técnica Superior de Ingeniería Informática.
+
+Asiste a 2 o más actividades de esta Hackers Week para poder disfrutar de un plato de paella con bebida a la hora del almuerzo del viernes gratis.
+
+Este acto de clausura de la Hackers Week 12 es posible gracias a nuestro patrocinados **Incibe**, de los que podéis encontrar detalles en la [página principal](https://hackersweek.es).

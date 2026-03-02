@@ -1,0 +1,16 @@
+---
+title: 'Torneo League Of Legends'
+type: 'torneo'
+date: '2026-03-07'
+start: '10:45'
+end: '16:00'
+layout: article
+---
+
+¡Ya están abiertas las inscripciones para el torneo de League of Legends de la Hackers Week 12!
+
+Tendrán lugar el 7 de marzo.
+
+<a href="http://u.uma.es/hyp/" target="_blank">
+  <button>Inscripciones</button>
+</a>
