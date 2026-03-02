@@ -8,6 +8,8 @@
   import EMT from "$lib/components/icons/EMT.svelte";
   import MetroMalaga from "$lib/components/icons/MetroMalaga.svelte";
   import Renfe from "$lib/components/icons/Renfe.svelte";
+
+  import { PUBLIC_CALL_FOR_PAPERS_OPEN } from "$env/static/public";
 </script>
 
 <svelte:head>
@@ -36,9 +38,11 @@
         <a href="#location">
           <button>Ubicación</button>
         </a>
-        <a href="/colaborar">
-          <button>Call For Papers</button>
-        </a>
+        {#if PUBLIC_CALL_FOR_PAPERS_OPEN}
+          <a href="/colaborar">
+            <button>Call For Papers</button>
+          </a>
+        {/if}
       </nav>
     </main-text>
     <HackersWeekMonochrome height="400" />
