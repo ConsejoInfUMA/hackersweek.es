@@ -61,7 +61,10 @@
       if (metadata.type === "actividad") {
         while (
           i < activities.length &&
-          Temporal.PlainTime.compare(metadata.start, activities[i].start) > 0
+          Temporal.PlainDateTime.compare(
+            `${metadata.date}T${metadata.start}`,
+            `${activities[i].date}T${activities[i].start}`,
+          ) > 0
         ) {
           i++;
         }
@@ -69,12 +72,16 @@
       } else {
         while (
           i < tournaments.length &&
-          Temporal.PlainTime.compare(metadata.start, tournaments[i].start) > 0
+          Temporal.PlainDateTime.compare(
+            `${metadata.date}T${metadata.start}`,
+            `${tournaments[i].date}T${tournaments[i].start}`,
+          ) > 0
         ) {
           i++;
         }
         tournaments.splice(i, 0, { ...metadata, slug, date, start, end });
       }
+      continue;
     }
 
     let i = 0;
@@ -149,9 +156,14 @@
     <h3>Actividades</h3>
     {#each activities as activity}
       <article>
-        <a href="/events/{activity.slug}">
-          <h4>{activity.title}</h4>
-        </a>
+        <span>
+          <a href="/events/{activity.slug}">
+            <h4>{activity.title}</h4>
+          </a>
+          {#if activity.organization}
+            <small>{activity.organization}</small>
+          {/if}
+        </span>
         <strong>
           <p>
             {activity.date.toLocaleString("es", {
@@ -180,9 +192,14 @@
     <h3>Torneos</h3>
     {#each tournaments as tournament}
       <article>
-        <a href="/events/{tournament.slug}">
-          <h4>{tournament.title}</h4>
-        </a>
+        <span>
+          <a href="/events/{tournament.slug}">
+            <h4>{tournament.title}</h4>
+          </a>
+          {#if tournament.organization}
+            <small>{tournament.organization}</small>
+          {/if}
+        </span>
         <strong>
           <p>
             {tournament.date.toLocaleString("es", {
@@ -247,9 +264,10 @@
     p {
       margin: 0;
     }
-    small {
-      color: light-dark(#111111, lightgray);
-    }
+  }
+
+  small {
+    color: light-dark(#111111, lightgray);
   }
 
   secondary-events {
@@ -260,9 +278,15 @@
     h3 {
       text-align: center;
     }
+    span {
+      margin: 1em 0;
+    }
+    small {
+      margin-top: 0.4em;
+    }
     h4 {
       font-size: 1.2em;
-      margin: 1em 0;
+      margin: 0;
       max-width: 400px;
     }
     strong {
