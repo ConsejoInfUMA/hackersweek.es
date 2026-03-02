@@ -160,11 +160,15 @@
             })}
           </p>
           <p>
-            <time datetime="{activity.date}T{activity.start}">
+            <time
+              datetime="{activity.date.toString()}T{activity.start.toString()}"
+            >
               {activity.start.toString({ smallestUnit: "minutes" })}
             </time>
             -
-            <time datetime="{activity.date}T{activity.end}">
+            <time
+              datetime="{activity.date.toString()}T{activity.end.toString()}"
+            >
               {activity.end.toString({ smallestUnit: "minutes" })}
             </time>
           </p>
@@ -187,11 +191,15 @@
             })}
           </p>
           <p>
-            <time datetime="{tournament.date}T{tournament.start}">
+            <time
+              datetime="{tournament.date.toString()}T{tournament.start.toString()}"
+            >
               {tournament.start.toString({ smallestUnit: "minutes" })}
             </time>
             -
-            <time datetime="{tournament.date}T{tournament.end}">
+            <time
+              datetime="{tournament.date.toString()}T{tournament.end.toString()}"
+            >
               {tournament.end.toString({ smallestUnit: "minutes" })}
             </time>
           </p>
