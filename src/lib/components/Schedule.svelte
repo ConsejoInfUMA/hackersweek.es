@@ -274,7 +274,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    gap: 20px;
+    column-gap: 20px;
+    justify-content: center;
+    width: 100%;
+    & > div {
+      width: min(400px, 100%);
+    }
     h3 {
       text-align: center;
     }
