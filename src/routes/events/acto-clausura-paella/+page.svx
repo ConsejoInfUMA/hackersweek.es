@@ -1,6 +1,7 @@
 ---
 title: 'Paellada'
 description: 'Acto de clausura'
+organization: '14:30 - 16:30'
 type: 'ponencia'
 date: '2026-03-13'
 start: '14:30'
