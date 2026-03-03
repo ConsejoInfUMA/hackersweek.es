@@ -2,7 +2,7 @@
 title: 'Torneo League Of Legends'
 type: 'torneo'
 date: '2026-03-07'
-start: '10:45'
+start: '10:00'
 end: '16:00'
 layout: article
 ---
