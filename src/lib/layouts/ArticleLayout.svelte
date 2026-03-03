@@ -45,6 +45,7 @@
   }
 
   article {
+    display: flow-root;
     border-left: var(--transparent-border);
     border-right: var(--transparent-border);
     margin: 0 auto;
@@ -75,9 +76,18 @@
     border-bottom: var(--transparent-border);
   }
 
-  :global(picture, img) {
+  :global(picture) {
+    float: left;
     max-width: 100%;
     height: auto;
+    border: var(--border);
+    margin: 20px;
+    margin-top: 0;
+    :global(img) {
+      max-width: 100%;
+      height: auto;
+      display: block;
+    }
   }
 
   hr {
