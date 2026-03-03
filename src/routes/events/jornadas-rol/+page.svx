@@ -8,7 +8,7 @@ end: '20:30'
 layout: article
 ---
 
-El día jueves 12 y viernes 13 de marzo de 16:00 a 20:30 se celebrarán en la cuarta planta del edificio biblioteca,
+El día **jueves 12 y viernes 13 de marzo de 16:00 a 20:30** se celebrarán en la cuarta planta del edificio biblioteca,
 salas de reuniones A y B las sesiones de rol.
 
 <a href="http://u.uma.es/hxq/" target="_blank">
