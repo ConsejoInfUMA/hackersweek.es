@@ -11,4 +11,7 @@ layout: article
 
 **Lugar**: 3.0.2
 
-🚧 En construcción
+Desafía tus límites con el CTF de INCIBE, nuestro patrocinador.
+
+Resuelve una serie de retos técnicos diseñados para poner a prueba tus habilidades en ciberseguridad.
+Una oportunidad única para enfrentarte a escenarios reales de la mano de los referentes del sector.
