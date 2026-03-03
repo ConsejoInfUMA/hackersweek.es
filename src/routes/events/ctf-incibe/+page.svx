@@ -15,3 +15,7 @@ Desafía tus límites con el CTF de INCIBE, nuestro patrocinador.
 
 Resuelve una serie de retos técnicos diseñados para poner a prueba tus habilidades en ciberseguridad.
 Una oportunidad única para enfrentarte a escenarios reales de la mano de los referentes del sector.
+
+<a href="https://www.eventbrite.es/e/ctf-incibe-tickets-1984373590828" target="_blank">
+  <button>Entradas</button>
+</a>
