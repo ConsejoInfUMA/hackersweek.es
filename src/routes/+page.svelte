@@ -99,32 +99,12 @@
         </sponsor-list>
       </sponsors-section>
     </div>
-    <figure>
-      <enhanced:img
-        src="$lib/assets/etsii.jpg?w=800;400"
-        width="400"
-        sizes="400px"
-        alt="Edificio de la ETSII"
-      />
-      <figcaption>
-        <small>
-          Imagen:
-          <a
-            href="https://commons.wikimedia.org/wiki/User:Gvillalobos"
-            target="_blank"
-          >
-            User:Gvillalobos
-          </a>
-          con licencia
-          <a
-            href="https://creativecommons.org/licenses/by-sa/4.0/deed.es"
-            target="_blank"
-          >
-            CC BY-SA 4.0
-          </a>
-        </small>
-      </figcaption>
-    </figure>
+    <enhanced:img
+      src="$lib/assets/etsii.jpg?w=800;400"
+      width="400"
+      sizes="400px"
+      alt="Edificio de la ETSII"
+    />
   </section>
   <section id="schedule">
     <h2>Horario</h2>
@@ -271,13 +251,9 @@
     div {
       flex: 1 1 400px;
     }
-    figure {
+    enhanced\:img {
       flex: 0 0 auto;
       margin: 0;
-      display: inline-block;
-      max-width: 100%;
-    }
-    enhanced\:img {
       height: auto;
       max-width: 100%;
       display: block;
