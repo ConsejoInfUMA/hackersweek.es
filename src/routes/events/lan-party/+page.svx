@@ -2,8 +2,8 @@
 title: 'LAN Party'
 type: 'actividad'
 date: '2026-03-11'
-start: '10:45'
-end: '12:30'
+start: '16:00'
+end: '20:00'
 layout: article
 ---
 
