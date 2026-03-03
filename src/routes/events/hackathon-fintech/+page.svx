@@ -1,18 +1,28 @@
 ---
 title: 'Hackathon'
 type: 'actividad'
-organization: 'Cátedra Fintech'
+organization: 'Cátedra Fintech & GSR'
 date: '2026-03-09'
-start: '16:00'
-end: '20:00'
+start: '10:45'
+end: '19:15'
 layout: article
 ---
 
 **Lugar**: Aula 2.0.10
 
-Presentamos, de mano de la Cátedra Fintech, la hackathon de la Hackers Week.
+Presentamos, de mano de la Cátedra Fintech en colaboración con GSR, la hackathon de esta Hackers Week.
 
-Un espacio para poner a prueba tu ingenio y desarrollar soluciones tecnológicas reales para el sector financiero,
-el **lunes 9 y martes 10 de marzo de 16:00 a 20:00**.
+Un espacio para poner a prueba tu ingenio y desarrollar soluciones tecnológicas de trading algorítmico.
+
+Se realizará los días **lunes 9 y martes 10 de marzo de 10:45 a 19:15**.
 
 ¡No te pierdas esta oportunidad de conectar con la innovación y llevarte el reto!
+
+**AVISO**
+
+- Se requiere cuenta de **Kaggle**, los miembros de equipo deben crearse una cuenta antes de aplicar.
+- El formulario se tiene que rellenar con tu **correo de la UMA**
+
+<a href="https://forms.gle/yB8N92LRuALRr5dPA/" target="_blank">
+  <button>Inscripciones</button>
+</a>
