@@ -1,7 +1,7 @@
 ---
 title: 'Omnia: Collective Cyber Intelligence. Powered by AI. United by Community.'
 description: 'Una ponencia centrada en la plataforma Omnia y todas sus posibilidades'
-presenter: 'Alejandro García Peláez'
+presenter: 'Alejandro García Peláez & Álvaro Sánchez Hernández'
 type: 'ponencia'
 date: '2026-03-12'
 start: '10:45'
