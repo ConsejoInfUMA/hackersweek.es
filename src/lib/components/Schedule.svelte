@@ -37,7 +37,7 @@
     Temporal.PlainTime.from(t),
   );
 
-  const articles: Record<string, Article[]> = {};
+  const articles: Record<string, (Article | Article[])[]> = {};
   const activities: Article[] = [];
   const tournaments: Article[] = [];
   for (const time of times) {
@@ -93,13 +93,36 @@
       i++;
     }
 
-    articles[dates[i]][date.dayOfWeek - 1] = {
-      ...metadata,
-      slug,
-      date,
-      start,
-      end,
-    };
+    // meet potential article
+    const potentialArticle = articles[dates[i]][date.dayOfWeek - 1];
+    if (Array.isArray(potentialArticle)) {
+      (articles[dates[i]][date.dayOfWeek - 1] as Article[]).push({
+        ...metadata,
+        slug,
+        date,
+        start,
+        end,
+      });
+    } else if (potentialArticle) {
+      articles[dates[i]][date.dayOfWeek - 1] = [
+        {
+          ...metadata,
+          slug,
+          date,
+          start,
+          end,
+        },
+        potentialArticle,
+      ];
+    } else {
+      articles[dates[i]][date.dayOfWeek - 1] = {
+        ...metadata,
+        slug,
+        date,
+        start,
+        end,
+      };
+    }
   }
 
   function getSpan(duration: Temporal.Duration): number {
@@ -135,16 +158,33 @@
               .toString({ smallestUnit: "minutes" })}
           </th>
           {#each articleList as article}
-            <td rowspan={getSpan(article.end.since(article.start))}>
-              <p>
-                <a href="/events/{article.slug}">
-                  {article.title}
-                </a>
-              </p>
-              {#if article.organization}
-                <small>{article.organization}</small>
-              {/if}
-            </td>
+            {#if Array.isArray(article)}
+              <td rowspan={getSpan(article[0].end.since(article[0].start))}>
+                {#each article as articleForReal}
+                  <div>
+                    <p>
+                      <a href="/events/{articleForReal.slug}">
+                        {articleForReal.title}
+                      </a>
+                    </p>
+                    {#if articleForReal.organization}
+                      <small>{articleForReal.organization}</small>
+                    {/if}
+                  </div>
+                {/each}
+              </td>
+            {:else}
+              <td rowspan={getSpan(article.end.since(article.start))}>
+                <p>
+                  <a href="/events/{article.slug}">
+                    {article.title}
+                  </a>
+                </p>
+                {#if article.organization}
+                  <small>{article.organization}</small>
+                {/if}
+              </td>
+            {/if}
           {/each}
         </tr>
       {/each}
@@ -260,6 +300,10 @@
       text-align: center;
       text-wrap: balance;
       border: var(--border);
+      div {
+        display: table-cell;
+        vertical-align: middle;
+      }
     }
     p {
       margin: 0;
