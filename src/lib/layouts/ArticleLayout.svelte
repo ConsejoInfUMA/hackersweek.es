@@ -74,19 +74,19 @@
     display: block;
     border-top: var(--transparent-border);
     border-bottom: var(--transparent-border);
-  }
 
-  :global(picture) {
-    float: left;
-    max-width: 100%;
-    height: auto;
-    border: var(--border);
-    margin: 20px;
-    margin-top: 0;
-    :global(img) {
+    & > :global(picture) {
+      float: left;
       max-width: 100%;
       height: auto;
-      display: block;
+      border: var(--border);
+      margin: 20px;
+      margin-top: 0;
+      :global(img) {
+        max-width: 100%;
+        height: auto;
+        display: block;
+      }
     }
   }
 
