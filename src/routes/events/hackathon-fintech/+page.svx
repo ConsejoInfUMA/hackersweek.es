@@ -8,7 +8,7 @@ end: '20:00'
 layout: article
 ---
 
-**Lugar**: Aula 3.0.10.
+**Lugar**: Aula 2.0.10
 
 Presentamos, de mano de la Cátedra Fintech, la hackathon de la Hackers Week.
 
