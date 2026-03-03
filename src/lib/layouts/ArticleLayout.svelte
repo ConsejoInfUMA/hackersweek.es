@@ -18,17 +18,6 @@
 <svelte:head>
   <title>{props.title} | Hackers Week</title>
   <meta name="description" content={props.description} />
-  <meta property="og:type" content="article" />
-  {#if props.presenter}
-    {#if props.organization}
-      <meta property="article:author" content={props.presenter} />
-    {:else}
-      <meta
-        property="article:author"
-        content="{props.presenter} ({props.organization})"
-      />
-    {/if}
-  {/if}
 </svelte:head>
 
 <hr role="none" />
@@ -84,6 +73,11 @@
     display: block;
     border-top: var(--transparent-border);
     border-bottom: var(--transparent-border);
+  }
+
+  :global(picture, img) {
+    max-width: 100%;
+    height: auto;
   }
 
   hr {
