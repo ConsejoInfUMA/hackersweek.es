@@ -10,7 +10,7 @@ end: '19:15'
 layout: article
 ---
 
-**Lugar**: 3.1.12
+**Lugar**: 3.1.7
 
 En este taller aprenderán cómo funciona la Integración y Despliegue Continuos en un entorno real.
 

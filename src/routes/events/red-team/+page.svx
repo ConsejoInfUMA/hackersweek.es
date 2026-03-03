@@ -12,8 +12,17 @@ layout: article
 
 **Lugar**: 3.0.2
 
-En esta ponencia se verá todo lo referente a lo que es un ejercicio de Red Team,
-una técnica de persistencia COM y una parte práctica referente a la persistencia COM.
+¿Entrar en un sistema está bien… pero quedarte dentro sin que nadie lo note? Eso es jugar en la liga de los Red Teams profesionales.
+
+En esta charla‑taller descubrirás, de forma práctica, cómo piensan y actúan los equipos de ataque ofensivo en entornos reales, y cómo pasan del primer acceso a mantener la persistencia utilizando técnicas avanzadas basadas en COM en sistemas Windows.
+
+¿Qué te vas a llevar?
+- Una visión realista de qué es un ejercicio de Red Team (más allá del típico CTF).
+- Un recorrido por las distintas técnicas de persistencia, y una explicación técnica del abuso a través de COM
+- Un ejercicio práctico guiado para que veas la técnica en acción.
+- La oportunidad de conocer cómo trabajamos en Accenture Security y qué perfiles buscamos para nuestros equipos.
+
+Si te apasiona el hacking ofensivo y quieres acercarte al mundo profesional, esta charla es para ti.
 
 **AVISO**: Para hacer la parte práctica necesitarás
 - Traer tu portátil

@@ -10,7 +10,7 @@ end: '19:15'
 layout: article
 ---
 
-**Lugar**: 3.1.1
+**Lugar**: 3.1.7
 
 Introducción al framework Twisted y sockets de Python para crear servidores y protocolos personalizados.
 
