@@ -10,7 +10,7 @@ end: '19:15'
 layout: article
 ---
 
-**Lugar**: 3.1.5
+**Lugar**: 3.1.7
 
 En este taller nos adentraremos en cómo la inteligencia artificial y los modelos de lenguaje de gran tamaño (LLM) están revolucionando el análisis de datos.
 

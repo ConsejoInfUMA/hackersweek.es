@@ -9,7 +9,7 @@ end: '19:15'
 layout: article
 ---
 
-**Lugar**: 3.1.12
+**Lugar**: 3.1.7
 
 ¿Cansado de que tus proyectos solo funcionen en tu máquina?
 
