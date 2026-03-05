@@ -70,7 +70,7 @@
     }
 
     & > :global(picture) {
-      float: left;
+      float: right;
       max-width: 100%;
       height: auto;
       border: var(--border);
