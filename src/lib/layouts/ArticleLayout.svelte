@@ -68,12 +68,6 @@
       padding: 16px;
       max-width: calc(100% - 64px);
     }
-  }
-
-  main {
-    display: block;
-    border-top: var(--transparent-border);
-    border-bottom: var(--transparent-border);
 
     & > :global(picture) {
       float: left;
@@ -83,11 +77,17 @@
       margin: 20px;
       margin-top: 0;
       :global(img) {
+        display: block;
         max-width: 100%;
         height: auto;
-        display: block;
       }
     }
+  }
+
+  main {
+    display: block;
+    border-top: var(--transparent-border);
+    border-bottom: var(--transparent-border);
   }
 
   hr {
