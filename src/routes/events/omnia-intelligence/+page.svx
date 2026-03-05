@@ -11,6 +11,13 @@ layout: article
 
 **Lugar**: Salón de Actos
 
+<enhanced:img
+  src="$lib/assets/carteles/Omnia.png?w=800,400"
+  width="400"
+  sizes="400px"
+  alt="{title}"
+/>
+
 En esta conferencia descubrirás la plataforma omniasec.ai, un LLM con gran enfoque en la comunidad.
 
 Descubrirás cada una de sus ventajas y posibilidades, respaldado por uno de sus desarrolladores.

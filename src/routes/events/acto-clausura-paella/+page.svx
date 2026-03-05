@@ -9,6 +9,13 @@ end: '16:30'
 layout: article
 ---
 
+<enhanced:img
+  src="$lib/assets/carteles/Paellada.png?w=800,400"
+  width="400"
+  sizes="400px"
+  alt="{title}"
+/>
+
 **El 13 de marzo a las 14:30** tendrá lugar una paellada en la Escuela Técnica Superior de Ingeniería Informática.
 
 Asiste a 2 o más actividades de esta Hackers Week para poder disfrutar de un plato de paella con bebida a la hora del almuerzo del viernes gratis.

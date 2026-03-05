@@ -11,6 +11,13 @@ layout: article
 
 **Lugar**: 3.1.7
 
+<enhanced:img
+  src="$lib/assets/carteles/ConstruyeYDespliegaTuApi.png?w=800,400"
+  width="400"
+  sizes="400px"
+  alt="{title}"
+/>
+
 ¿Cansado de que tus proyectos solo funcionen en tu máquina?
 
 En esta sesión práctica, cerraremos la brecha entre el desarrollo local y la producción real.

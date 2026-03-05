@@ -12,6 +12,13 @@ layout: article
 
 **Lugar**: 3.0.2
 
+<enhanced:img
+  src="$lib/assets/carteles/VivirSinCompromisos.png?w=800,400"
+  width="400"
+  sizes="400px"
+  alt="{title}"
+/>
+
 ¿Entrar en un sistema está bien… pero quedarte dentro sin que nadie lo note? Eso es jugar en la liga de los Red Teams profesionales.
 
 En esta charla‑taller descubrirás, de forma práctica, cómo piensan y actúan los equipos de ataque ofensivo en entornos reales, y cómo pasan del primer acceso a mantener la persistencia utilizando técnicas avanzadas basadas en COM en sistemas Windows.

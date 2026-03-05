@@ -12,6 +12,13 @@ layout: article
 
 **Lugar**: 3.1.7
 
+<enhanced:img
+  src="$lib/assets/carteles/AnalisisIA.png?w=800,400"
+  width="400"
+  sizes="400px"
+  alt="{title}"
+/>
+
 En este taller nos adentraremos en cómo la inteligencia artificial y los modelos de lenguaje de gran tamaño (LLM) están revolucionando el análisis de datos.
 
 Desde la automatización de tareas tediosas como la preparación de datos y el análisis exploratorio (EDA) hasta la simplificación de la visualización, con el objetivo deextraer insights y tomar mejores decisiones sin apenas necesidad de código.

@@ -12,6 +12,13 @@ layout: article
 
 **Lugar**: 3.1.7
 
+<enhanced:img
+  src="$lib/assets/carteles/OpenBokeronCICD.png?w=800,400"
+  width="400"
+  sizes="400px"
+  alt="{title}"
+/>
+
 En este taller aprenderán cómo funciona la Integración y Despliegue Continuos en un entorno real.
 
 Se presentarán distintos servidores de automatización, centrándonos en Jenkins, una plataforma Open Source altamente utilizada en entornos profesionales.

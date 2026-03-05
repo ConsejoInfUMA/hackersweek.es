@@ -11,7 +11,14 @@ layout: article
 
 **Lugar**: Salón de Actos
 
-En esta conferencia comentaremos las técnicas más útiles de hacking de disposivios hardware,
+<enhanced:img
+  src="$lib/assets/carteles/IntroduccionHackingHardware.png?w=800,400"
+  width="400"
+  sizes="400px"
+  alt="{title}"
+/>
+
+En esta conferencia comentaremos las técnicas más útiles de hacking de dispositivos hardware,
 y veremos un modelo de flujo de trabajo y herramientas (hardware y software)
 para poder hacer un test de intrusión a dispositivos empotrados e IoT.
 

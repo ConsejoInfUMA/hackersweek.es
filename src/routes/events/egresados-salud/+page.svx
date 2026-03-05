@@ -11,6 +11,13 @@ layout: article
 
 **Lugar**: 3.0.2
 
+<enhanced:img
+  src="$lib/assets/carteles/IngSalud.png?w=800,400"
+  width="400"
+  sizes="400px"
+  alt="{title}"
+/>
+
 ¿Qué opciones hay después de terminar Ingeniería de la Salud?
 
 En esta charla, egresados con trayectorias muy diversas compartirán sus experiencias.

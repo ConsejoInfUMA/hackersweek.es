@@ -12,6 +12,13 @@ layout: article
 
 **Lugar**: Salón de Actos
 
+<enhanced:img
+  src="$lib/assets/carteles/DeLoManualALoAutomatizado.png?w=800,400"
+  width="400"
+  sizes="400px"
+  alt="{title}"
+/>
+
 En muchos procesos financieros, la extracción de datos desde documentos semiestructurados (facturas, balances financieros, etc.) sigue siendo manual, lenta y costosa.
 
 Esta charla presenta el diseño y puesta en marcha de una **API de extracción inteligente** basada en **LLMs** que devuelve **JSON estructurado y validado por esquema**,

@@ -12,6 +12,13 @@ layout: article
 
 **Lugar**: Salón de Actos
 
+<enhanced:img
+  src="$lib/assets/carteles/BotsFraudeNegocioRomperJuegos.png?w=800,400"
+  width="400"
+  sizes="400px"
+  alt="{title}"
+/>
+
 En el mundo de los juegos en línea, el riesgo luce muy diferente al de la banca o el comercio electrónico.
 
 Los jugadores esperan diversión sin fricciones, no verificaciones de identidad. 

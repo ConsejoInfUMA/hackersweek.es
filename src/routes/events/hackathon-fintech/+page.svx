@@ -10,6 +10,13 @@ layout: article
 
 **Lugar**: Aula 2.0.10
 
+<enhanced:img
+  src="$lib/assets/carteles/Hackathon.jpeg?w=800,400"
+  width="400"
+  sizes="400px"
+  alt="{title}"
+/>
+
 Presentamos, de mano de la Cátedra Fintech en colaboración con GSR, la hackathon de esta Hackers Week.
 
 Un espacio para poner a prueba tu ingenio y desarrollar soluciones tecnológicas de trading algorítmico.
