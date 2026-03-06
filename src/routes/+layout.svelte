@@ -2,11 +2,7 @@
   import Moon from "@lucide/svelte/icons/moon";
   import Sun from "@lucide/svelte/icons/sun";
   import SunMoon from "@lucide/svelte/icons/sun-moon";
-  import type { FormEventHandler } from "svelte/elements";
   import Logo from "$lib/components/Logo.svelte";
-
-  const oninput: FormEventHandler<HTMLInputElement> = (e) =>
-    localStorage.setItem("theme", e.currentTarget.id);
 
   let { children } = $props();
 </script>
@@ -29,24 +25,32 @@
   </nav>
   <theme-picker aria-label="Selector de temas" role="radiogroup">
     <label aria-label="Predeterminado">
-      <input type="radio" name="theme" id="system" {oninput} checked />
+      <input type="radio" name="theme" id="system" checked />
       <SunMoon />
     </label>
     <label aria-label="Claro">
-      <input type="radio" name="theme" id="light" {oninput} />
+      <input type="radio" name="theme" id="light" />
       <Sun />
     </label>
     <label aria-label="Oscuro">
-      <input type="radio" name="theme" id="dark" {oninput} />
+      <input type="radio" name="theme" id="dark" />
       <Moon />
     </label>
   </theme-picker>
   <script>
-    // needs to be an inline script so that it runs asap
+    // this is the only javascript that runs in the entire site
+    // all it does is saving and loading the saved theme
+    // all other logic is pure html/css
     const theme = localStorage.getItem("theme");
     if (theme) {
       document.getElementById(theme).checked = true;
     }
+
+    const oninput = (e) => localStorage.setItem("theme", e.target.id);
+
+    document.getElementById("system").addEventListener("input", oninput);
+    document.getElementById("light").addEventListener("input", oninput);
+    document.getElementById("dark").addEventListener("input", oninput);
   </script>
 </header>
 {@render children()}

@@ -100,7 +100,7 @@
       </sponsors-section>
     </div>
     <enhanced:img
-      src="$lib/assets/etsii.jpg?w=800;400"
+      src="$lib/assets/etsii.jpg?w=600;400"
       width="400"
       sizes="400px"
       alt="Edificio de la ETSII"
