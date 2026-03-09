@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { PUBLIC_EVENT_ONGOING } from "$env/static/public";
   import { Temporal } from "temporal-polyfill-lite";
 
   interface ArticlePage {
@@ -53,6 +54,17 @@
 
 <main>
   <h1>Eventos</h1>
+  {#if PUBLIC_EVENT_ONGOING}
+    <opinion-form>
+      <p>
+        Si ya has acudido a alguno de los eventos de esta edición, rellena
+        nuestra encuesta de calidad!
+      </p>
+      <a href="https://u.uma.es/hAm" target="_blank">
+        <button>Encuesta de Calidad</button>
+      </a>
+    </opinion-form>
+  {/if}
   {#each Object.entries(articles).toSorted() as [date, articleList]}
     <h2>
       <time datetime={date}>
@@ -98,6 +110,15 @@
   article {
     padding: 16px;
     background-color: var(--secondary-background);
+  }
+  opinion-form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    border: var(--border);
+    background-color: var(--secondary-background);
+    padding-bottom: 12px;
   }
   h1 {
     font-size: 3em;

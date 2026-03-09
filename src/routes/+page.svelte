@@ -15,6 +15,7 @@
 
   import {
     PUBLIC_CALL_FOR_PAPERS_OPEN,
+    PUBLIC_EVENT_ONGOING,
     PUBLIC_EVENT_START_DATE,
     PUBLIC_EVENT_END_DATE,
   } from "$env/static/public";
@@ -58,6 +59,11 @@
         <a href="#location">
           <button>Ubicación</button>
         </a>
+        {#if PUBLIC_EVENT_ONGOING}
+          <a href="https://u.uma.es/hAm" target="_blank">
+            <button>Encuesta de Calidad</button>
+          </a>
+        {/if}
         {#if PUBLIC_CALL_FOR_PAPERS_OPEN}
           <a href="/colaborar">
             <button>Call For Papers</button>
