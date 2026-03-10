@@ -291,7 +291,7 @@
         background-color: light-dark(#eeeeee, #222222);
       }
       &:nth-child(even) {
-        background-color: light-dark(#ffffff, #2e2e2e);
+        background-color: light-dark(#fafafa, #2e2e2e);
       }
     }
     th,
