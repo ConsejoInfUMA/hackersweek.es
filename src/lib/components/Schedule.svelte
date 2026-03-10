@@ -288,10 +288,10 @@
         text-wrap: nowrap;
       }
       &:nth-child(odd) {
-        background-color: light-dark(#eeeeee, #333333);
+        background-color: light-dark(#eeeeee, #222222);
       }
       &:nth-child(even) {
-        background-color: light-dark(#ffffff, #3e3e3e);
+        background-color: light-dark(#ffffff, #2e2e2e);
       }
     }
     th,
