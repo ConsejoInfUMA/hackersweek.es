@@ -4,13 +4,12 @@ description: 'Red Team y persistencia COM en Windows'
 presenter: 'Antonio Jiménez & Rubén Hernández'
 organization: 'Accenture'
 type: 'ponencia'
+location: '3.0.2'
 date: '2026-03-11'
 start: '10:45'
 end: '12:30'
 layout: article
 ---
-
-**Lugar**: 3.0.2
 
 <enhanced:img
   src="$lib/assets/carteles/VivirSinCompromisos.png?w=800,400"

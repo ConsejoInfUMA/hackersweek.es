@@ -2,13 +2,12 @@
 title: 'Hackathon'
 type: 'actividad'
 organization: 'Cátedra Fintech & GSR'
+location: '2.0.10'
 date: '2026-03-09'
 start: '10:45'
 end: '19:15'
 layout: article
 ---
-
-**Lugar**: Aula 2.0.10
 
 <enhanced:img
   src="$lib/assets/carteles/Hackathon.jpeg?w=800,400"

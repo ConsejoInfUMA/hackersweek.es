@@ -4,13 +4,12 @@ description: 'Una ponencia sobre los atacantes en los videojuesgos y por qué pr
 presenter: 'Alberto Guerra González'
 organization: 'Riot Games'
 type: 'ponencia'
+location: 'Salón de Actos'
 date: '2026-03-10'
 start: '10:45'
 end: '12:30'
 layout: article
 ---
-
-**Lugar**: Salón de Actos
 
 <enhanced:img
   src="$lib/assets/carteles/BotsFraudeNegocioRomperJuegos.png?w=800,400"

@@ -3,13 +3,12 @@ title: 'Capture the Flag'
 description: 'Captura la bandera.'
 organization: 'INCIBE'
 type: 'ponencia'
+location: '3.0.2'
 date: '2026-03-13'
 start: '10:45'
 end: '12:30'
 layout: article
 ---
-
-**Lugar**: 3.0.2
 
 <enhanced:img
   src="$lib/assets/carteles/CtfIncibe.png?w=800,400"

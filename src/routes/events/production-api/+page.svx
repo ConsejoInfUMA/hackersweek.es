@@ -3,13 +3,12 @@ title: 'Construye y Despliega tu API Ready-for-Production: Minimal API en C#, Gi
 description: 'Un taller donde llevar a la práctica tu propia API'
 presenter: 'Javier Torralbo Cortés, Alejandro Cerezo Contreras'
 type: 'taller'
+location: '3.1.7'
 date: '2026-03-11'
 start: '17:30'
 end: '19:15'
 layout: article
 ---
-
-**Lugar**: 3.1.7
 
 <enhanced:img
   src="$lib/assets/carteles/ConstruyeYDespliegaTuApi.png?w=800,400"

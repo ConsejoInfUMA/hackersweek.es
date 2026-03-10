@@ -4,13 +4,12 @@ description: 'Extracción de datos automatizado para el sector financiero.'
 presenter: 'Fernando López Prieto'
 organization: 'Ebury'
 type: 'ponencia'
+location: 'Salón de Actos'
 date: '2026-03-09'
 start: '11:45'
 end: '12:30'
 layout: article
 ---
-
-**Lugar**: Salón de Actos
 
 <enhanced:img
   src="$lib/assets/carteles/DeLoManualALoAutomatizado.png?w=800,400"

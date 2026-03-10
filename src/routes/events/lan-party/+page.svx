@@ -1,6 +1,7 @@
 ---
 title: 'LAN Party'
 type: 'actividad'
+location: 'Sala de grados C'
 date: '2026-03-11'
 start: '16:00'
 end: '20:00'

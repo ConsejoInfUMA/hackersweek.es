@@ -1,11 +1,13 @@
 <script lang="ts">
   import type { Snippet } from "svelte";
+  import { Temporal } from "temporal-polyfill-lite";
 
   interface Props {
     title: string;
     description: string;
     children: Snippet;
     presenter?: string;
+    location?: string;
     organization?: string;
     date: string;
     start: string;
@@ -24,16 +26,32 @@
 <main>
   <article>
     <h1>{props.title}</h1>
-    {#if props.presenter}
-      <address>
-        {props.presenter}
-        {#if props.organization}
-          ({props.organization})
-        {/if}
-      </address>
-    {/if}
-    <p><b>Fecha</b>: {props.date}</p>
-    <p><b>Hora</b>: {props.start} - {props.end}</p>
+    <event-info>
+      {#if props.presenter}
+        <address>
+          👥
+          {props.presenter}
+          {#if props.organization}
+            ({props.organization})
+          {/if}
+        </address>
+      {/if}
+      {#if props.location}
+        <p>📍 {props.location}</p>
+      {/if}
+      <p>
+        📅
+        <time datetime="{props.date}T{props.start}">
+          {Temporal.PlainDateTime.from(props.date).toLocaleString("es", {
+            day: "numeric",
+            month: "long",
+          })}
+          {props.start}
+        </time>
+        -
+        <time datetime={props.end}>{props.end}</time>
+      </p>
+    </event-info>
     {@render props.children?.()}
   </article>
 </main>
@@ -88,6 +106,21 @@
     display: block;
     border-top: var(--transparent-border);
     border-bottom: var(--transparent-border);
+  }
+
+  event-info {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    font-weight: bold;
+    text-align: center;
+    & > p {
+      font-size: 1.2em;
+      margin: 10px 0;
+    }
   }
 
   hr {

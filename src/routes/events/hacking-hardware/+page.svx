@@ -3,13 +3,12 @@ title: 'Introducción al hacking hardware'
 description: 'Una ponencia sobre el flujo de trabajo y herramientas en el hacking hardware'
 presenter: 'David Santo Orcero & David Reguera'
 type: 'ponencia'
+location: 'Salón de Actos'
 date: '2026-03-09'
 start: '10:45'
 end: '11:30'
 layout: article
 ---
-
-**Lugar**: Salón de Actos
 
 <enhanced:img
   src="$lib/assets/carteles/IntroduccionHackingHardware.png?w=800,400"
