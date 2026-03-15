@@ -3,7 +3,6 @@ import adapter from '@sveltejs/adapter-static';
 import type { Config } from '@sveltejs/kit';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex } from 'mdsvex';
-import type { PreprocessorGroup } from 'svelte/compiler';
 
 export default {
 	extensions: ['.svelte', '.svx'],
@@ -15,7 +14,7 @@ export default {
 			article: path.join(import.meta.dirname, './src/lib/layouts/ArticleLayout.svelte'),
 			main: path.join(import.meta.dirname, './src/lib/layouts/MainLayout.svelte')
 		}
-	}) as PreprocessorGroup],
+	})],
 
 	kit: {
 		// See https://svelte.dev/docs/kit/adapters for more information about adapters.
@@ -23,8 +22,7 @@ export default {
 			fallback: '404.html'
 		}),
 		paths: {
-			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH as '/',
-			relative: false
+			base: process.argv.includes('dev') ? '' : process.env.BASE_PATH as '/'
 		}
 	}
 } satisfies Config;
