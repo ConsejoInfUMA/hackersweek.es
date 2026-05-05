@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
   import HackersWeekMonochrome from "$lib/components/icons/HackersWeekMonochrome.svelte";
   import HackersWeekEdition from "$lib/components/icons/HackersWeekEdition.svelte";
 
@@ -19,8 +19,6 @@
     PUBLIC_EVENT_START_DATE,
     PUBLIC_EVENT_END_DATE,
   } from "$env/static/public";
-
-  import { Temporal } from "temporal-polyfill-lite";
 
   const startPlainDate = Temporal.PlainDate.from(PUBLIC_EVENT_START_DATE);
   const endPlainDate = Temporal.PlainDate.from(PUBLIC_EVENT_END_DATE);

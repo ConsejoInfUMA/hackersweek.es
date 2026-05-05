@@ -1,6 +1,5 @@
 <script lang="ts">
   import type { Snippet } from "svelte";
-  import { Temporal } from "temporal-polyfill-lite";
 
   interface Props {
     title: string;

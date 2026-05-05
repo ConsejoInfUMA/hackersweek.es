@@ -1,6 +1,5 @@
 <script lang="ts">
   import { PUBLIC_EVENT_ONGOING } from "$env/static/public";
-  import { Temporal } from "temporal-polyfill-lite";
 
   interface ArticlePage {
     title: string;

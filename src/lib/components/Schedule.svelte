@@ -1,9 +1,6 @@
 <script lang="ts">
   // if you aren't me and you're reading the code: good luck!
 
-  // super duper bleeding edge
-  import { Temporal } from "temporal-polyfill-lite";
-
   interface ArticlePage {
     title: string;
     presenter: string;

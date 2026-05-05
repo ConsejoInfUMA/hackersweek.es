@@ -210,9 +210,6 @@ importers:
       '@lucide/svelte':
         specifier: ^1.14.0
         version: 1.14.0(svelte@5.55.5)
-      temporal-polyfill-lite:
-        specifier: ^0.3.5
-        version: 0.3.5
     devDependencies:
       '@sveltejs/adapter-static':
         specifier: ^3.0.10
@@ -857,9 +854,6 @@ packages:
     resolution: {integrity: sha512-2uCs/LZ9us+AktdzYJM8OcxQ8qnPS1kpaO7syGT/MgO+6Qr1Ybl+TqPq+97u7PHqmmMlye5ZkoyXONy5mjjAbw==}
     engines: {node: '>=18'}
 
-  temporal-polyfill-lite@0.3.5:
-    resolution: {integrity: sha512-np3EcFbuGJrJ8fp3rKTwpvfvPlkh54IY873Xh+5133Pq1QQy1mkNXrDmJjjZ35dhQkrJpVx8RwaNWt0189iDfg==}
-
   tinyglobby@0.2.16:
     resolution: {integrity: sha512-pn99VhoACYR8nFHhxqix+uvsbXineAasWm5ojXoN8xEwK5Kd3/TrhNn1wByuD52UxWRLy8pu+kRMniEi6Eq9Zg==}
     engines: {node: '>=12.0.0'}
@@ -1466,8 +1460,6 @@ snapshots:
       zimmerframe: 1.1.4
     transitivePeerDependencies:
       - '@typescript-eslint/types'
-
-  temporal-polyfill-lite@0.3.5: {}
 
   tinyglobby@0.2.16:
     dependencies:

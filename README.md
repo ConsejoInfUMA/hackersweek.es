@@ -4,7 +4,7 @@ Sitio web de la Hackers Week, escrito en SvelteKit
 
 # Setup
 
-- Instala [Node.js](https://nodejs.org) >=24
+- Instala [Node.js](https://nodejs.org) 26 o superior
 - Instala [pnpm](https://pnpm.io)
 - Instala las dependencias necesarias:
   ```sh
