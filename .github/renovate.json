@@ -7,6 +7,7 @@
     "group:allNonMajor",
     "helpers:pinGitHubActionDigestsToSemver"
   ],
+  "minimumReleaseAge": "1 day",
   "rangeStrategy": "bump",
   "ignoreDeps": ["node"],
   "postUpdateOptions": ["pnpmDedupe"]
