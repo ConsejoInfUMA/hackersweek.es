@@ -34,6 +34,10 @@ jobs:
         with:
           static_site_generator: sveltekit
 
+      # https://github.com/actions/configure-pages/issues/197
+      - name: Workaround for pages action not supporting SvelteKit 3
+        run: rm svelte.config.js
+
       - name: Build site
         run: node --run build
 
