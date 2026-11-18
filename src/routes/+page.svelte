@@ -1,27 +1,27 @@
 <script lang="ts">
-  import HackersWeekMonochrome from "$lib/components/icons/HackersWeekMonochrome.svelte";
-  import HackersWeekEdition from "$lib/components/icons/HackersWeekEdition.svelte";
+  import HackersWeekMonochrome from "#lib/components/icons/HackersWeekMonochrome.svelte";
+  import HackersWeekEdition from "#lib/components/icons/HackersWeekEdition.svelte";
 
-  import Schedule from "$lib/components/Schedule.svelte";
+  import Schedule from "#lib/components/Schedule.svelte";
 
-  import Accenture from "$lib/components/icons/Accenture.svelte";
-  import INCIBE from "$lib/components/icons/INCIBE.svelte";
-  import Krom from "$lib/components/icons/Krom.svelte";
+  import Accenture from "#lib/components/icons/Accenture.svelte";
+  import INCIBE from "#lib/components/icons/INCIBE.svelte";
+  import Krom from "#lib/components/icons/Krom.svelte";
 
-  import Aena from "$lib/components/icons/Aena.svelte";
-  import EMT from "$lib/components/icons/EMT.svelte";
-  import MetroMalaga from "$lib/components/icons/MetroMalaga.svelte";
-  import Renfe from "$lib/components/icons/Renfe.svelte";
+  import Aena from "#lib/components/icons/Aena.svelte";
+  import EMT from "#lib/components/icons/EMT.svelte";
+  import MetroMalaga from "#lib/components/icons/MetroMalaga.svelte";
+  import Renfe from "#lib/components/icons/Renfe.svelte";
 
   import {
-    PUBLIC_CALL_FOR_PAPERS_OPEN,
-    PUBLIC_EVENT_ONGOING,
-    PUBLIC_EVENT_START_DATE,
-    PUBLIC_EVENT_END_DATE,
-  } from "$env/static/public";
+    CALL_FOR_PAPERS_OPEN,
+    EVENT_ONGOING,
+    EVENT_START_DATE,
+    EVENT_END_DATE
+  } from '$app/env/public';
 
-  const startPlainDate = Temporal.PlainDate.from(PUBLIC_EVENT_START_DATE);
-  const endPlainDate = Temporal.PlainDate.from(PUBLIC_EVENT_END_DATE);
+  const startPlainDate = Temporal.PlainDate.from(EVENT_START_DATE);
+  const endPlainDate = Temporal.PlainDate.from(EVENT_END_DATE);
 
   const start = startPlainDate.toLocaleString("es", { day: "2-digit" });
   const end = endPlainDate.toLocaleString("es", {
@@ -47,8 +47,8 @@
         <HackersWeekEdition height="1.13em" />
       </h1>
       <h2>
-        <time datetime={PUBLIC_EVENT_START_DATE}>{start}</time> -
-        <time datetime={PUBLIC_EVENT_END_DATE}>{end} {year}</time>
+        <time datetime={EVENT_START_DATE}>{start}</time> -
+        <time datetime={EVENT_END_DATE}>{end} {year}</time>
       </h2>
       <nav>
         <a href="#schedule">
@@ -57,12 +57,12 @@
         <a href="#location">
           <button>Ubicación</button>
         </a>
-        {#if PUBLIC_EVENT_ONGOING}
+        {#if EVENT_ONGOING}
           <a href="https://u.uma.es/hAm" target="_blank">
             <button>Encuesta de Calidad</button>
           </a>
         {/if}
-        {#if PUBLIC_CALL_FOR_PAPERS_OPEN}
+        {#if CALL_FOR_PAPERS_OPEN}
           <a href="/colaborar">
             <button>Call For Papers</button>
           </a>
@@ -104,11 +104,11 @@
       </sponsors-section>
     </div>
     <enhanced:img
-      src="$lib/assets/etsii.jpg?w=600;400"
+      src="#lib/assets/etsii.jpg?w=600;400"
       width="400"
       sizes="400px"
       alt="Edificio de la ETSII"
-    />
+    ></enhanced:img>
   </section>
   <section id="schedule">
     <h2>Horario</h2>
@@ -118,11 +118,11 @@
     <h2>Zona</h2>
     <figure>
       <enhanced:img
-        src="$lib/assets/map.webp?w=1642;821"
+        src="#lib/assets/map.webp?w=1642;821"
         width="821"
         alt="Mapa desde arriba de la ETSII"
         sizes="821px"
-      />
+      ></enhanced:img>
       <figcaption>
         <a href="https://youtu.be/UxNUhgNQrYQ" target="_blank">Mapa</a> desde arriba
         de la ETSII

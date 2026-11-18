@@ -9,7 +9,7 @@
 <main>
   {#if page.status === 404}
     <enhanced:img
-      src="$lib/assets/404.jpg"
+      src="#lib/assets/404.jpg"
       alt="Gato escondido. 404 Not Found"
     />
     <p>Parece que la página que buscas no existe.</p>

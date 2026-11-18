@@ -1,5 +1,5 @@
 <script lang="ts">
-  import { PUBLIC_EVENT_ONGOING } from "$env/static/public";
+  import { EVENT_ONGOING } from '$app/env/public';
 
   interface ArticlePage {
     title: string;
@@ -53,7 +53,7 @@
 
 <main>
   <h1>Eventos</h1>
-  {#if PUBLIC_EVENT_ONGOING}
+  {#if EVENT_ONGOING}
     <opinion-form>
       <p>
         Si ya has acudido a alguno de los eventos de esta edición, rellena

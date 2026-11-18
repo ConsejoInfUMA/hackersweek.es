@@ -2,7 +2,7 @@
   import Moon from "@lucide/svelte/icons/moon";
   import Sun from "@lucide/svelte/icons/sun";
   import SunMoon from "@lucide/svelte/icons/sun-moon";
-  import Logo from "$lib/components/Logo.svelte";
+  import Logo from "#lib/components/Logo.svelte";
 
   let { children } = $props();
 </script>

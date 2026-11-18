@@ -12,7 +12,7 @@ layout: article
 ---
 
 <enhanced:img
-  src="$lib/assets/carteles/BotsFraudeNegocioRomperJuegos.png?w=800,400"
+  src="#lib/assets/carteles/BotsFraudeNegocioRomperJuegos.png?w=800,400"
   width="400"
   sizes="400px"
   alt="{title}"
@@ -20,7 +20,7 @@ layout: article
 
 En el mundo de los juegos en línea, el riesgo luce muy diferente al de la banca o el comercio electrónico.
 
-Los jugadores esperan diversión sin fricciones, no verificaciones de identidad. 
+Los jugadores esperan diversión sin fricciones, no verificaciones de identidad.
 Sin embargo, detrás de cada inicio de sesión existe una economía de compraventa con dinero real, automatización y robo de cuentas que alimenta un enorme mercado clandestino.
 
 Esta charla explora cómo los distintos atacantes en línea obtienen beneficios de los videojuegos

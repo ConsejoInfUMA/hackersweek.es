@@ -1,12 +1,7 @@
 {
-	"extends": "./.svelte-kit/tsconfig.json",
-	"compilerOptions": {
-		"resolveJsonModule": true,
-		"skipLibCheck": true,
-	}
-	// Path aliases are handled by https://svelte.dev/docs/kit/configuration#alias
-	// except $lib which is handled by https://svelte.dev/docs/kit/configuration#files
-	//
-	// To make changes to top-level options such as include and exclude, we recommend extending
-	// the generated config; see https://svelte.dev/docs/kit/configuration#typescript
+	"extends": "$app/tsconfig",
+	"include": [
+		"src",
+		"vite.config.ts"
+	]
 }

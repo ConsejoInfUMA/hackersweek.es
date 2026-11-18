@@ -11,7 +11,7 @@ layout: article
 ---
 
 <enhanced:img
-  src="$lib/assets/carteles/Paellada.png?w=800,400"
+  src="#lib/assets/carteles/Paellada.png?w=800,400"
   width="400"
   sizes="400px"
   alt="{title}"

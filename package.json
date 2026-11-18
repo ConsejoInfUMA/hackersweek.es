@@ -10,20 +10,24 @@
 		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
 		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
 	},
+	"imports": {
+		"#lib": "./src/lib/index.js",
+		"#lib/*": "./src/lib/*"
+	},
 	"dependencies": {
-		"@lucide/svelte": "^1.48.0"
+		"@lucide/svelte": "^1.74.0"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-static": "^3.0.10",
-		"@sveltejs/enhanced-img": "^0.11.0",
-		"@sveltejs/kit": "^2.70.3",
+		"@sveltejs/adapter-static": "^4.0.1",
+		"@sveltejs/enhanced-img": "^1.0.1",
+		"@sveltejs/kit": "^3.2.1",
 		"@sveltejs/vite-plugin-svelte": "^7.3.1",
-		"@types/node": "^26.6.3",
+		"@types/node": "^26.6.6",
 		"mdsvex": "^0.12.8",
-		"svelte": "^5.57.1",
-		"svelte-check": "^4.7.6",
+		"svelte": "^5.57.3",
+		"svelte-check": "^4.7.8",
 		"typescript": "^6.0.3",
-		"vite": "^8.3.1"
+		"vite": "^8.3.8"
 	},
 	"devEngines": {
 		"runtime": {
@@ -32,7 +36,7 @@
 		},
 		"packageManager": {
 			"name": "pnpm",
-			"version": "^12.8.1",
+			"version": "^12.21.0",
 			"onFail": "download"
 		}
 	}
