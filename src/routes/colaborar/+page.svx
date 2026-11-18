@@ -10,7 +10,7 @@ layout: main
     SPONSORS_FORM_OPEN,
     EVENT_START_DATE,
     EVENT_END_DATE
-  } from "$env/static/public";
+  } from "$app/env/public";
 
   const start = Temporal.PlainDate.from(EVENT_START_DATE).day;
   const end = Temporal.PlainDate.from(EVENT_END_DATE).toLocaleString('es', {
